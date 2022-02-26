@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>macimas</title>
+    <title>macimas</title>
     <meta content="macimas" property="og:title"/>
     <meta content="macimas' website.'" property="og:description"/>
     <meta content="#43B581" data-react-helmet="true" name="theme-color"/>
 	<style>
+        @font-face {
+        font-family: VGA;
+        src: url("./fonts/Perfect DOS VGA 437 Win.ttf");
+        }
+        html {
+            background: #000;
+            height: 100%;
+        }
+        p, pre {
+            color: #fff;
+            font-family: VGA;
+            font-size: 32px;
+        }
+        .test {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: -webkit-fill-available;
+        }
 	</style>
 </head>
+<body class="test">
+<img src="./images/logo.svg">
+<pre>hello :D</pre>
 </body>
-	<h1>macimas</h1>
-	<p>hi am macimas. i like to make random stuff and also say profanity like [[Hyperlink Blocked]]
 </html>
