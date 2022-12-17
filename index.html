@@ -1,143 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>macimas</title>
-	<meta content="macimas" property="og:title"/>
-	<meta content="macimas' website.'" property="og:description"/>
-	<meta content="#43B581" data-react-helmet="true" name="theme-color"/>
-<style>
-/* latin-ext */
-@font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/inter/v8/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZFhiI2B.woff2) format('woff2');
-	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/inter/v8/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2) format('woff2');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-html {background: #000; height: 100%;}
-.testc {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	height: -webkit-fill-available;
-}
-.testr {
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	height: -webkit-fill-available;
-}
-h1, h2, p, table {color: #fff; font-family: 'Inter';}
-h1 {font-size: 24px; margin: 0.3em 0;}
-h2, th {font-weight: 400; font-size: 18px; margin: 0.1em 0;}
-p, table {font-size: 14px; margin: 0.5em 0;}
-table {margin:0;}
-th, td {
-	padding: 2px 4px;
-}
-th {
-	text-align: left;
-}
-tr td:first-child {
-	text-align: right;
-	padding: 2px 4px 2px 0;
-}
-.center {
-	text-align: center;
-}
-</style>
-</head>
-<body class="testc">
-<div style="width:720px;">
-<div class="center">
-	<img src="./images/logo.svg">
-	<h2>this website sucks but whatever</h2>
-</div>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta property="og:title" content="macimas"/>
 
-<h1>about me</h1>
-<p>am a 15 year old boy living in the philippines.<br>
-<br>
-not very professional asshole<br>
-pronouns are he / him / she / her / they / them<br>
-you can call me mac / macimas / macimasta / macdowntwo / zky / zkylb / dumbass / asshole / shitass / poopstain / pirate or anything you would like to call me but i prefer mac<br>
-<br>
-you can find me existing somewhere in discord if you look hard enough</p>
-
-<h1>hobbies</h1>
-<p>graphics designer<br>
-creating games in Turbowarp/Scratch</p>
-
-<h1>computer specs</h1>
-<div class="testr">
-<table>
-	<tr>
-		<th></th>
-		<th>main</th>
-	</tr>
-	<tr>
-		<td>Laptop</td>
-		<td>Lenovo G500</td>
-	</tr>
-	<tr>
-		<td>CPU</td>
-		<td>Intel Core i7-3540M</td>
-	</tr>
-	<tr>
-		<td>GPU</td>
-		<td>Intel HD Graphics 4000</td>
-	</tr>
-	<tr>
-		<td>RAM</td>
-		<td>7.7 GiB<br>with unnecessary 7.4 GiB swap</td>
-	</tr>
-	<tr>
-		<td>Storage</td>
-		<td>465.6 GiB</td>
-	</tr>
-	<tr>
-		<td>OS</td>
-		<td>EndeavourOS</td>
-	</tr>
-</table>
-<table>
-	<tr>
-		<th></th>
-		<th>secondary</th>
-	</tr>
-	<tr>
-		<td>Laptop</td>
-		<td>dynabook R732/g</td>
-	</tr>
-	<tr>
-		<td>CPU</td>
-		<td>Intel Core i3-3110M</td>
-	</tr>
-	<tr>
-		<td>GPU</td>
-		<td>Intel HD Graphics 4000</td>
-	</tr>
-	<tr>
-		<td>RAM</td>
-		<td>3.6 GiB<br>with around 1 GiB page file</td>
-	</tr>
-	<tr>
-		<td>Storage</td>
-		<td>149 GiB</td>
-	</tr>
-	<tr>
-		<td>OS</td>
-		<td>Windows 8.1 (pirated)</td>
-	</tr>
-</table>
-</div>
-</div>
-</body>
+		<link rel="icon" href="/icon.svg"/>
+		<title>macimas</title>
+		<base target="_blank">
+	</head>
+	<body>
+		<div id="app"></div>
+		<script type="module" src="/src/main.js"></script>
+	</body>
 </html>
