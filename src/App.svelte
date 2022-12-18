@@ -1,11 +1,12 @@
 <script>
+	import { onMount } from 'svelte';
 	import logos from "./logos.json";
 	import splashTexts from "./splash texts.json";
 
-	let clickCount = 0;
-	let currentLogo = "/logo/logo.svg";
-
-	let currentSplashText = getRandomInt(0, splashTexts.length);
+	onMount(() => {
+		if (navigator.userAgent.includes('Firefox'))
+			mdtCount.innerText = "this website in firefox may be jank. sorry idk how to fix"
+	})
 
 	// i stole this >:D
 	function getRandomInt(min, max) {
@@ -14,10 +15,14 @@
 		return Math.floor(Math.random() * (max - min) + min);
 	}
 
+
+	let clickCount = 0;
+	let currentLogo = "/logo/logo.svg";
+
 	function changeLogo() {
 		currentLogo = "/logo/loading logo.svg";
 		clickCount++;
-		currentLogoDisplay.innerHTML = clickCount;
+		mdtCount.innerText = clickCount;
 		switch (clickCount) {
 			case 69: currentLogo = "/logo/nice.svg"; break;
 			case 727: currentLogo = "/logo/eyes.svg"; break;
@@ -26,6 +31,9 @@
 		}
 	}
 
+
+	let currentSplashText = getRandomInt(0, splashTexts.length);
+
 	function changeSplashText() {
 		currentSplashText = getRandomInt(0, splashTexts.length)
 	}
@@ -33,12 +41,14 @@
 
 
 <main>
-	<span id="currentLogoDisplay" style="position:absolute;top:32px;left:50%;transform:translateX(-50%)"></span>
+	<p id="mdtCount" style="position:absolute;top:32px;left:50%;transform:translateX(-50%)"></p>
 	<mdt-macimas>
-		<img class="logo" on:click={changeLogo} src={currentLogo} style="height:96px">
-		<code on:click={changeSplashText} style="user-select:none;line-height:18px">{splashTexts[currentSplashText]}</code>
+		<mdt-logo class="clickMe" on:click={changeLogo}>
+			<img on:load src={currentLogo}>
+		</mdt-logo>
+		<splash-text on:click={changeSplashText} class="clickMe"><code>{splashTexts[currentSplashText]}</code></splash-text>
 		<mdt-socials>
-			<a coloronhover="#aaa" href="https://discord.gg/8V3ch7M"><img src="/icon/discord.svg"></a>
+			<a href="https://discord.gg/8V3ch7M"><img src="/icon/discord.svg"></a>
 			<a href="https://github.com/macimas"><img src="/icon/github.svg"></a>
 			<a href="https://www.youtube.com/@mdt2"><img src="/icon/youtube.svg"></a>
 			<a href="https://twitter.com/macdowntwo"><img src="/icon/twitter.svg"></a>
