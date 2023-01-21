@@ -1,0 +1,42 @@
+[
+	{
+		"name": "adocubes",
+		"img": "adocubes.png",
+		"links": [
+			["adocubes.tk", "http://adocubes.tk"],
+			["github repo", "https://github.com/ado1928/ado-cubes"]
+		],
+		"info": [
+			"r/place but 3d",
+			"",
+			"contributed mostly to front-end,",
+			"did a little bit of the back-end"
+		]
+	},
+	{
+		"name": "smiley face game",
+		"img": "sfg.png",
+		"links": [
+			["game link", "https://dev-smiley-face-game.sirjosh3917.com"],
+			["wiki link", "https://sfg.fandom.com/wiki/SFG_Wiki"]
+		],
+		"info": [
+			"a recreation of an old game called Everybody Edits",
+			"",
+			"provided sprites for the sign tiles,",
+			"and created the wiki for it"
+		]
+	},
+	{
+		"name": "bitter!mc",
+		"img": "bitter!mc.png",
+		"links": [ ["bittermc.gihub.io", "https://bittermc.github.io"] ],
+		"info": [ "a dead minecraft server i made" ]
+	},
+	{
+		"name": "this website",
+		"img": "macimas.png",
+		"links": [ ["macimas.github.io", "https://macimas.github.io"] ],
+		"info": [ "recursssion" ]
+	}
+]
