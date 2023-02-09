@@ -36,7 +36,12 @@
 	{
 		"name": "this website",
 		"img": "macimas.png",
-		"links": [ ["macimas.github.io", "https://macimas.github.io"] ],
+		"links": [
+			["macimas.github.io", "https://macimas.github.io"],
+			["/3.14", "https://macimas.github.io/3.14"],
+			["/bosnia", "https://macimas.github.io/bosnia"],
+			["/qmelz", "https://macimas.github.io/qmelz"]
+		],
 		"info": [ "recursssion" ]
 	}
 ]

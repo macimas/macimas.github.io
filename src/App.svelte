@@ -39,19 +39,19 @@
 		}
 	}
 
-	var test = 'egg'
 
-	let currentSplashText = getRandomInt(splashTexts['default'].length);
+
+	let currentSplashText;
 
 	function changeSplashText() {
 		currentSplashText = getRandomInt(splashTexts['default'].length)
-	}
+	}; changeSplashText()
 </script>
 
 
 <main>
 	{#if clickCount !== 0}
-		<p class="mdt-count" style="position:absolute;top:32px;left:50%;transform:translateX(-50%)">{clickCount}</p>
+		<p class="mdt-count">{clickCount}</p>
 	{/if}
 	<div class="macimas">
 		<div class="logo clickMe" on:click={clikylogo}>
@@ -60,11 +60,12 @@
 		<p class="splash-text clickMe" on:click={changeSplashText}><code>{splashTexts['default'][currentSplashText]}</code></p>
 		<div class="socials">
 			<a href="https://discord.gg/8V3ch7M"><img src="/icon/discord.svg"></a>
-			<a href="https://github.com/macimas"><img src="/icon/github.svg"></a>
-			<a href="https://www.youtube.com/@mdt2"><img src="/icon/youtube.svg"></a>
 			<a href="https://twitter.com/macdowntwo"><img src="/icon/twitter.svg"></a>
-			<a href="https://www.reddit.com/user/ZkyLB/"><img src="/icon/reddit.svg"></a>
+			<a href="https://github.com/macimas"><img src="/icon/github.svg"></a>
 			<a href="https://onlyfans.com/mdtwo"><img src="/icon/onlyfans.svg"></a>
+			<a href="https://www.youtube.com/@mdt2"><img src="/icon/youtube.svg"></a>
+			<a href="https://www.reddit.com/user/ZkyLB/"><img src="/icon/reddit.svg"></a>
+
 		</div>
 	</div>
 
