@@ -8,6 +8,8 @@
 	import ProjectGallary from "./section/ProjectGallary.svelte";
 	import DuoDuo from "./section/DuoDuo.svelte";
 	import StuffIPirated from "./section/StuffIPirated.svelte";
+	import Phone from "./section/Phone.svelte";
+	import Debug from "./section/Debug.svelte";
 
 
 	// i stole this >:D
@@ -16,6 +18,7 @@
 	}
 
 
+	let showDebug = false;
 
 	let clickCount = 0;
 	let currentLogo = "/logo/logo.svg";
@@ -57,7 +60,7 @@
 		<div class="logo clickMe" on:click={clikylogo}>
 			<img src={currentLogo}>
 		</div>
-		<p class="splash-text clickMe" on:click={changeSplashText}><code>{splashTexts['default'][currentSplashText]}</code></p>
+		<p class="splash-text clickMe" on:click={changeSplashText}><code>{@html splashTexts['default'][currentSplashText]}</code></p>
 		<div class="socials">
 			<a href="https://discord.gg/8V3ch7M"><img src="/icon/discord.svg"></a>
 			<a href="https://twitter.com/macdowntwo"><img src="/icon/twitter.svg"></a>
@@ -89,7 +92,16 @@
 	<DuoDuo/>
 
 	<StuffIPirated/>
-	
+
+	{#if showDebug}
+		<Debug/>
+	{/if}
+
+	<details>
+		<summary>show phone</summary>
+		<Phone/>
+	</details>
+
 	<footer>
 		<code>stupidly made with <a href="https://svelte.dev">Svelte</a> <img src="/icon/svelte.svg"></code>
 	</footer>

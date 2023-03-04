@@ -7,8 +7,8 @@
 @font-face { font-family: "Liberation Sans Bold"; src: url("/font/LiberationSans-Bold.ttf") }
 
 html { overflow-y: scroll; overflow: overlay }
-body {
-	margin: 0;
+body { margin: 0 }
+.macimas-and-cheese-leave {
 	background: #000 url("macimas and cheese leave.png");
 	transition: background 0s;
 	animation-name: backgroundLoop;
@@ -62,11 +62,11 @@ body {
 }
 
 
-::-webkit-scrollbar				{ width: 12px; background: #000 }
-::-webkit-scrollbar-thumb		{ background-clip: padding-box; background: #323232; border: 4px solid #000; border-radius: 16px }
-::-webkit-scrollbar-thumb:hover { background: #aaa }
+::-webkit-scrollbar				{ width: 12px; background: 0 }
+::-webkit-scrollbar-thumb		{ background: 0; border: 4px solid #0004; border-radius: 16px; box-shadow: inset 0 0 0px 4px #fff2 }
+::-webkit-scrollbar-thumb:hover { box-shadow: inset 0 0 0px 4px #fffa }
 
-* { color: #fff; text-shadow: 2px 2px black; transition: all .5s cubic-bezier(0, 1, 0, 1) }
+* { color: #fff; transition: all .5s cubic-bezier(0, 1, 0, 1) }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Liberation Mono Bold"; margin: 0 }
 h1					{ font-size: 24px }
@@ -87,6 +87,12 @@ tr:hover > td:active{ background: #000 }
 
 
 
+button {
+	background: #000;
+}
+
+
+
 .box {
 	display: flex;
 	max-width: 660px;
@@ -95,6 +101,7 @@ tr:hover > td:active{ background: #000 }
 	border-radius: 8px;
 	outline: 2px solid #000;
 	box-shadow: inset 0 0 0 2px #000;
+	text-shadow: 2px 2px black;
 	flex-direction: column;
 	gap: 6px;
 	overflow: auto;
@@ -115,6 +122,8 @@ tr:hover > td:active{ background: #000 }
 		width: -webkit-fill-available !important
 	}
 }
+
+
 
 .width-fill-available {
 	width: -webkit-fill-available;
