@@ -99,6 +99,6 @@
 
 	<footer class="width-fill-available">
 		<img src="./img/made with love & svelte.png">
-		last updated on March 19, 2023
+		last updated on March 20, 2023
 	</footer>
 </main>

@@ -2,36 +2,6 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "@json/*": [
-                "src/json/*"
-            ],
-            "@lib/*": [
-                "src/lib/*"
-            ],
-            "@not now/*": [
-                "src/not now/*"
-            ],
-            "@section/*": [
-                "src/section/*"
-            ],
-            "@/*": [
-                "src/*"
-            ],
-            "json/*": [
-                "json/*"
-            ],
-            "lib/*": [
-                "lib/*"
-            ],
-            "not now/*": [
-                "not now/*"
-            ],
-            "section/*": [
-                "section/*"
-            ],
-            "/*": [
-                "src/*"
-            ],
             "dist/*": [
                 "dist/*"
             ],
@@ -46,9 +16,19 @@
             ],
             "@rollup/*": [
                 "@rollup/*"
+            ],
+            "audio/*": [
+                "audio/*"
+            ],
+            "font/*": [
+                "font/*"
+            ],
+            "img/*": [
+                "img/*"
+            ],
+            "assets/*": [
+                "assets/*"
             ]
         }
-    }
-}       }
     }
 }
