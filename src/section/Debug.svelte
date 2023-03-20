@@ -1,5 +1,5 @@
 <script>
-	import Box from "../Box.svelte";
+	import Box from "lib/Box.svelte";
 	import splashTexts from "../json/splash texts.json";
 
 	let showAllSplashTexts = false;
@@ -7,7 +7,8 @@
 
 <Box>
 	<h1>the debug box</h1>
-	<button on:click={() => showAllSplashTexts = !showAllSplashTexts}>click me to show all splash texts!</button>
+	<div><button class="egg">test button</button> <button class="egg">test button</button></div>
+	<button class="egg" on:click={() => showAllSplashTexts = !showAllSplashTexts}>click me to show all splash texts!</button>
 	{#if showAllSplashTexts}
 		<div class="macimas-and-cheese-leave" style="padding:16px;height:320px;text-align:center;overflow-y:scroll">
 			<h1>all (default) splash texts</h1>

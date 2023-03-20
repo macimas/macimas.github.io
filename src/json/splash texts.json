@@ -19,6 +19,7 @@
 		"hi",
 		"hai",
 		"hello",
+		"hallo",
 		"hello there",
 		"kamusta",
 		"konnichiwa",
@@ -26,6 +27,7 @@
 		"bye",
 		"bai",
 		"goodbye",
+		"goodbai",
 		"see ya",
 		"paalam",
 		"sayonara",
@@ -53,23 +55,27 @@
 		"install linux mint",
 		"install endeavouros",
 		"btw i use arch. jk i use endeavour",
-		"oyasumi ooooyasumi close your eyes and",
-		"yu zo ffuhkin kinda crzy",
-		"i kind of like codig and linux stuff",
-		"fear me, for i have the power of <b>html</b>",
+		"multiple<br>lines",
 
+		"eat pant",
+		"my pronouns are he/she/him/her/mac",
+		"fear me, for i have the power of <b>html</b>",
 		"im gay",
+		"im a nobody",
 		"im stupid and you can't do anything about it",
 		"im not french",
 		"im from the philippines",
 		"im not really good at anything",
-		"eat pant",
 		"i have mental illness",
 		"i take things for granted",
 		"i cause suffering to those around me",
 		"i don't understand people",
 		"i probably dislike you",
 		"i rule this world i stand on",
+		"i used to play mindustry",
+		"indielm and millinadustry were my two favorite mindustry servers",
+		"i sometimes play minecraft",
+		"<i>i will eat your soul if you get too close to me</i>",
 		"professional idiot",
 		"you have beautiful eyes 👀",
 		"controversial statement",
@@ -89,7 +95,8 @@
 		"𝐠𝐢𝐯𝐞 𝐦𝐞 𝐜𝐨𝐦𝐩𝐢𝐥𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐜𝐨𝐦𝐦𝐢𝐭 𝐢𝐧 𝟔.𝟎 𝐛𝐫𝐚𝐧𝐜𝐡",
 
 		"youtube",
-		"This video contains content from &lt;insert name here&gt;, who has blocked it from display on this website or application",
+		"This video contains content from UMG, who has blocked it from display on this website or application",
+		"It is forbidden to save, video record, or audio record the contents of a live broadcast for any reason, or to retain or possess any data or files obtained from it, such as those received from others.",
 
 		"github",
 		"guhhub",
@@ -119,6 +126,7 @@
 		"click the circles game",
 		"play more",
 		"who's afraid of the big black?",
+		"727",
 		"when you see it",
 		"see you next time.",
 
@@ -126,10 +134,18 @@
 		"nobody edits :(",
 		"smiley face game! :)",
 
+		"touhou",
+		"⑨",
+
+		"omori",
+		"oyasumi ooooyasumi close your eyes and",
+
 		"macimas",
 		"macdowntwo",
+		"zkylb",
 		"mac",
 		"mdt",
+		"zky",
 
 		"desktopone",
 		"desktop",
@@ -154,6 +170,7 @@
 		"zesty",
 
 		"skybldev",
+		"skyblue",
 		"skybl",
 		"jake",
 		
@@ -162,6 +179,9 @@
 		"qmelz the void",
 		"qmelz",
 		"macimas with the investment",
+		"big piece of world where no land and there water",
+		"feel free and open source!",
+		"sounds way over my skill level",
 
 		"ifritdiezel",
 		"ifrit",
@@ -173,18 +193,36 @@
 		"valtsu",
 		"valt",
 
-		"meltdown",
+		"пицца кальцоне",
+		"imreallybadatnames",
+
+		"yusof",
+		"yu zo ffuhkin kinda crzy",
+		"i kind of like codig and linux stuff",
+
+		"meltdown (ping)",
 		"macimas and cheese leave ;-;",
 		"macimas and cheese dries",
 		"the invisible trains that move items very fast",
 		"eat mosquito",
+		"ifrit has died from extreme pressure.",
+		"it's so sad that bill gates told us about the thorium",
+		"NOTHING SHALL RESIST THE JUDGING",
+		"who and why have i eaten",
+		"mac is sus",
+		";-; sonni-sama help me with commands",
+		"isnt ryzen specialized while intel is trying to kill",
+		"rhyme at all costs",
+
+		"millinadustry (ping)",
+		"ifrit is gone and appears to decay with time.",
 
 		"also check out adocubes.tk!",
 		"also check out skybldev.eu.org!",
 		"also check out hyxud.cf!",
-		"also check out macimas.github.io!",
 		"also check out ado1928.github.io!",
 		"also check out qmelz.deno.dev!",
+		"also check out macimas.github.io!",
 		"also check out yzffkindacrzy.github.io!"
 	]
 }

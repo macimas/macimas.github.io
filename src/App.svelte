@@ -1,108 +1,104 @@
 <script>
-	import Box from "./Box.svelte";
-
-	import logos from "./json/logos.json";
-
-	import splashTexts from "./json/splash texts.json";
-
+	import Box from "lib/Box.svelte";
+	import Modal from "lib/Modal.svelte";
 	import ProjectGallary from "./section/ProjectGallary.svelte";
 	import DuoDuo from "./section/DuoDuo.svelte";
 	import StuffIPirated from "./section/StuffIPirated.svelte";
-	import Phone from "./section/Phone.svelte";
 	import Debug from "./section/Debug.svelte";
 
+	import logos from "./json/logos.json";
+	import splashTexts from "./json/splash texts.json";
+
+	// stolen from QmelZ the Void
+	const piString = Math.PI.toString().replace('.', '');
+	const piNumbers = Array.from({ length: piString.length }, (_, i) => piString.slice(0, -i))
+		.filter(it => it.length > 2)
+		.map(it => Number.parseInt(it));
+
+	let showDebug = false;
+
+	let clickCount = 0;
+	let logo = "macimas.svg";
+	let splashText;
+
+	function clikylogo() {
+		clickCount++;
+		switch (clickCount) {
+			case 69: logo = "nice.svg"; break;
+			case 404: logo = "404.svg"; break;
+			case 427: logo = "THE END IS NEVER.svg"; break;
+			case 727: logo = "eyes.svg"; break;
+			case 1928: logo = "cube.svg"; break;
+			default: logo = logos[getRandomInt(logos.length)];
+		}
+
+		if (piNumbers.includes(clickCount)) logo = "π.svg"; // :shrug: :P
+	}
+
+	function changeSplashText() {
+		splashText = splashTexts['default'][getRandomInt(splashTexts['default'].length)]
+	}
 
 	// i stole this >:D
 	function getRandomInt(max) {
 		return Math.floor(Math.random() * max)
 	}
 
-
-	let showDebug = false;
-
-	let clickCount = 0;
-	let currentLogo = "/logo/logo.svg";
-
-	if (navigator.userAgent.match(/Android|iPhone|iPad|iPod/i) !== null) {
-		clickCount = "website in mobile is very janky."
-	}
-
-	function setLogo(logo) { currentLogo = "/logo/" + logo }
-
-	function clikylogo() {
-		if (isNaN(clickCount)) clickCount = 0
-		clickCount++;
-		switch (clickCount) {
-			case 69: setLogo("nice.svg"); break;
-			case 404: setLogo("404.svg"); break;
-			case 427: setLogo("THE END IS NEVER.svg"); break;
-			case 727: setLogo("eyes.svg"); break;
-			case 1928: setLogo("cube.svg"); break;
-			default: currentLogo = "/logo/" + logos[getRandomInt(logos.length)]
-		}
-	}
-
-
-
-	let currentSplashText;
-
-	function changeSplashText() {
-		currentSplashText = getRandomInt(splashTexts['default'].length)
-	}; changeSplashText()
+	changeSplashText();
 </script>
-
 
 <main>
 	{#if clickCount !== 0}
 		<p class="mdt-count">{clickCount}</p>
 	{/if}
 	<div class="macimas">
-		<div class="logo clickMe" on:click={clikylogo}>
-			<img src={currentLogo}>
+		<div class="logo clickMe" title={logo} on:click={clikylogo}>
+			<img src={`./img/logo/${logo}`}>
 		</div>
-		<p class="splash-text clickMe" on:click={changeSplashText}><code>{@html splashTexts['default'][currentSplashText]}</code></p>
+		<p class="splash-text clickMe" on:click={changeSplashText}>
+			<code>{@html splashText}</code>
+		</p>
 		<div class="socials">
-			<a href="https://discord.gg/8V3ch7M"><img src="/icon/discord.svg"></a>
-			<a href="https://twitter.com/macdowntwo"><img src="/icon/twitter.svg"></a>
-			<a href="https://github.com/macimas"><img src="/icon/github.svg"></a>
-			<a href="https://onlyfans.com/mdtwo"><img src="/icon/onlyfans.svg"></a>
-			<a href="https://www.youtube.com/@mdt2"><img src="/icon/youtube.svg"></a>
-			<a href="https://www.reddit.com/user/ZkyLB/"><img src="/icon/reddit.svg"></a>
-
+			<a class="no-underline" href="https://discord.gg/8V3ch7M"><img src="./img/icon/discord.svg"></a>
+			<a class="no-underline" href="https://twitter.com/macdowntwo"><img src="./img/icon/twitter.svg"></a>
+			<a class="no-underline" href="https://github.com/macimas"><img src="./img/icon/github.svg"></a>
+			<a class="no-underline" href="https://onlyfans.com/mdtwo"><img src="./img/icon/onlyfans.svg"></a>
+			<a class="no-underline" href="https://www.youtube.com/@mdt2"><img src="./img/icon/youtube.svg"></a>
+			<a class="no-underline" href="https://www.reddit.com/user/ZkyLB/"><img src="./img/icon/reddit.svg"></a>
 		</div>
 	</div>
 
-	<Box>
-		<h1>🇫🇷 what am i</h1>
-		<p>am a 16 introverted boy in the philippines 🇵🇭 who does random shit</p>
-	</Box>
+	<div class="sections">
+		<Box>
+			<h1>🇫🇷 what am i</h1>
+			<p>am a 16 introverted boy in the philippines 🇵🇭 who does random shit</p>
+		</Box>
 
-	<Box>
-		<h1>❓ what i do</h1>
-		<p>
-			1. i play minecraft<br>
-			2. i design ui, logos, and stuff<br>
-			3. i sometimes do javascript<br>
-			4. i pirate games and other stuff (don’t tell anyone)
-		</p>
-	</Box>
+		<Box>
+			<h1>❓ what i do</h1>
+			<p>
+				1. i play minecraft<br>
+				2. i like to work with vectors and designing ui, logos, n stuff<br>
+				3. i sometimes do javascript<br>
+				4. i pirate games and other stuff <small><i>(don’t tell anyone)</i></small>
+			</p>
+		</Box>
 
-	<ProjectGallary/>
+		<ProjectGallary/>
 
-	<DuoDuo/>
+		<DuoDuo/>
 
-	<StuffIPirated/>
+		<StuffIPirated/>
 
-	{#if showDebug}
-		<Debug/>
-	{/if}
+		<button class="egg" on:click={() => showDebug = !showDebug}>{(showDebug) ? "hide" : "show"} debug box</button>
 
-	<details>
-		<summary>show phone</summary>
-		<Phone/>
-	</details>
+		{#if showDebug}
+			<Debug/>
+		{/if}
+	</div>
 
-	<footer>
-		<code>stupidly made with <a href="https://svelte.dev">Svelte</a> <img src="/icon/svelte.svg"></code>
+	<footer class="width-fill-available">
+		<img src="./img/made with love & svelte.png">
+		last updated on March 19, 2023
 	</footer>
 </main>

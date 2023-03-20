@@ -6,11 +6,24 @@
 @font-face { font-family: "Liberation Sans Italic"; src: url("/font/LiberationSans-Italic.ttf") }
 @font-face { font-family: "Liberation Sans Bold"; src: url("/font/LiberationSans-Bold.ttf") }
 
+@font-face { font-family: "Roboto Regular"; src: url("/font/Roboto/Roboto-Regular.ttf") }
+@font-face { font-family: "Roboto Medium"; src: url("/font/Roboto/Roboto-Medium.ttf") }
+@font-face { font-family: "Roboto Bold"; src: url("/font/Roboto/Roboto-Bold.ttf") }
+
+
+
+:root {
+	font-family: "Liberation Sans Regular";
+	font-size: 16px;
+	color: #fff;
+}
+
+
+
 html { overflow-y: scroll; overflow: overlay }
 body { margin: 0 }
 .macimas-and-cheese-leave {
 	background: #000 url("macimas and cheese leave.png");
-	transition: background 0s;
 	animation-name: backgroundLoop;
 	animation-duration: 42.069s;
 	animation-iteration-count: infinite;
@@ -62,67 +75,71 @@ body { margin: 0 }
 }
 
 
-::-webkit-scrollbar				{ width: 12px; background: 0 }
-::-webkit-scrollbar-thumb		{ background: 0; border: 4px solid #0004; border-radius: 16px; box-shadow: inset 0 0 0px 4px #fff2 }
-::-webkit-scrollbar-thumb:hover { box-shadow: inset 0 0 0px 4px #fffa }
 
-* { color: #fff; transition: all .5s cubic-bezier(0, 1, 0, 1) }
-
-h1, h2, h3, h4, h5, h6 { font-family: "Liberation Mono Bold"; margin: 0 }
+h1, h2, h3 { font-family: "Liberation Mono Bold"; margin: 0 }
 h1					{ font-size: 24px }
 p					{ margin: 0 }
 b, td:first-child	{ font-family: "Liberation Sans Bold" }
 code				{ font-family: "Liberation Mono Regular"; display: block; margin: 0 }
 code > b			{ font-family: "Liberation Mono Bold" }
 a					{ color: #33e9f1; font-family: unset; text-decoration: none }
-a:hover				{ color: #fff ;text-decoration: underline }
+a:hover:not(.no-underline) { margin-bottom: -1px; color: #fff; border-bottom: 1px solid #eee }
+a:active			{ opacity: 0.5 }
 
 table				{ border-collapse: separate }
-td					{ padding: 4px 8px }
+td					{ padding: 4px 8px; }
 td:first-child		{ border-radius: 8px 0 0 8px; text-align: right }
 td:last-child		{ border-radius: 0 8px 8px 0 }
-tr:hover > td		{ background: #1f1e22aa }
-tr:hover > td:hover	{ background: #3d484aaa }
-tr:hover > td:active{ background: #000 }
+tr:hover > td		{ background: #fff1; box-shadow: inset 0 0 0 2px #fff1 }
+tr:hover > td:hover	{ background: #fff2; outline: 4px solid #fff0; box-shadow: inset 0 0 0 2px #fff2 }
+tr:hover > td:active{ background: #0000; outline: none; box-shadow: none}
 
 
 
-button {
-	background: #000;
+button.egg {
+	padding: 6px 12px;
+	background: #0000;
+	color: #fff;
+	border: 2px solid #000;
+	border-radius: 16px;
+	box-shadow: inset 0 0 0 2px #fff1;
+	font-family: "Liberation Sans Regular";
+	font-size: 16px;
+}
+button.egg:hover {
+	background: #fff2;
+	outline: 4px solid #fff0;
+	box-shadow: inset 0 0 0 2px #fff2;
+}
+button.egg:active {
+	background: #0000;
+	outline: none;
+	box-shadow: none;
+	transition: background 0.05s;
 }
 
-
+::-webkit-scrollbar				{ width: 12px; background: 0 }
+::-webkit-scrollbar-thumb		{ background: 0; border: 4px solid #0004; border-radius: 16px; box-shadow: inset 0 0 0px 4px #fff2 }
+::-webkit-scrollbar-thumb:hover { box-shadow: inset 0 0 0px 4px #fffa }
 
 .box {
+	overflow: auto;
 	display: flex;
 	max-width: 660px;
-	background: linear-gradient(#0f0f0f, #05050500), url('noise.png');
+	flex-direction: column;
+	gap: 6px;
+	padding: 16px;
+	background: url(/src/noise.png), linear-gradient(#161616, #000);
+	color: #fff;
 	border: 1px solid #323232;
 	border-radius: 8px;
 	outline: 2px solid #000;
 	box-shadow: inset 0 0 0 2px #000;
-	text-shadow: 2px 2px black;
-	flex-direction: column;
-	gap: 6px;
-	overflow: auto;
-	padding: 16px;
-	animation-name: box-of-wonders;
-	animation-timing-function: cubic-bezier(0, 1, 0, 1);
-	animation-duration: 1s;
 }
 .box:hover		{ border-color: #646464; outline-color: #161616; box-shadow: inset 0 0 0 2px #aaa }
+.box * { text-shadow: 2px 2px black }
 .box h1			{ letter-spacing: 0px }
 .box:hover h1	{ letter-spacing: 2px }
-@media (max-width: 694px) {
-	.box {
-		padding: 16px;
-		border-radius: 0;
-	}
-	.logo {
-		width: -webkit-fill-available !important
-	}
-}
-
 
 
 .width-fill-available {
@@ -138,11 +155,20 @@ main {
 	flex-direction: column;
 	align-items: center;
 	gap: 16px;
-	font-family: "Liberation Sans Regular";
-	font-size: 16px;
 	animation-name: main-of-wonders;
 	animation-duration: 1s;
 }
+main * { transition: all 0.5s; transition-timing-function: cubic-bezier(0, 1, 0, 1) }
+
+.sections {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	animation-name: box-of-wonders;
+	animation-timing-function: cubic-bezier(0, 1, 0, 1);
+	animation-duration: 1s;
+}
+
 .macimas {
 	display: flex;
 	margin-bottom: 64px;
@@ -166,13 +192,12 @@ main {
 	.logo				{ cursor: pointer; min-width: 399.86px; text-align: center }
 	.logo, .logo img	{ height: 96px }
 	.logo:active img	{ transform: scale(0.8) }
-	.splash-text		{ cursor: pointer; display: block; min-width: 300px; text-align: center }
+	.splash-text		{ cursor: pointer; display: block; min-width: 400px; text-align: center }
 	.splash-text code	{ line-height: 18px }
 	.socials			{ display: flex; height: 32px; flex-direction: row; gap: 16px }
 	.socials *			{ cursor: pointer; height: 32px; transition: all .1s cubic-bezier(0, 1, 0, 1); opacity: 96% }
 	.socials *:hover	{ transform: scale(1.1); opacity: 100% }
 	.socials *:active	{ transform: scale(1); opacity: 80% }
-
 
 .table-duoduo {
 	display: flex;
@@ -181,26 +206,147 @@ main {
 	justify-content: center
 }
 
+footer {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+	padding: 32px;
+}
+
 
 
 .project-nav		{ display: flex; justify-content: space-between; align-items: center }
 .project-nav span	{ display: flex; flex-direction: row; align-items: center; gap: 6px }
-.project-nav span button {
-	width: 32px;
-	height: 32px;
-	background: #000;
-	border: 2px solid #323232;
-	border-radius: 16px;
-	outline: 2px solid #000;
-	text-align: center;
+.project-nav span p	{ color: #aaa }
+.project-title		{ position: absolute; left: 50%; transform: translateX(-50%) }
+.project			{ display: flex; gap: 16px }
+.project img		{ width: 240px; height: 180px; border-radius: 8px }
+.project-info		{ display: flex; flex-direction:column; justify-content: space-between }
+.project-links		{ display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 16px; row-gap: 6px }
+
+
+
+
+@media (max-width: 694px) {
+	:root { font-size: 12px }
+
+	h1 { font-size: 16px }
+
+	.macimas, .logo, .logo img, .splash-text, .sections, footer *
+	{ max-width: 100%; min-width: 0 }
+
+	.splash-text {
+		width: 100vw;
+	}
+
+	.box {
+		gap: 4px;
+		padding: 12px;
+		border-radius: 0;
+	}
+
+	.project {
+		flex-direction: column;
+	}
+
+	.project img {
+		width: -webkit-fill-available;
+		width: -moz-available;
+		height: auto;
+	}
 }
-.project-nav span button:hover	{ border: 2px solid #aaa; outline: 2px solid #646464 }
-.project-nav span button:active	{ background: #fff; color: #000; outline: 2px solid #000; opacity: 50% }
-.project-nav span p				{ color: #aaa }
-.project-title					{ position: absolute; left: 50%; transform: translateX(-50%) }
-.project						{ display: flex; flex-direction: row; gap: 16px }
-.project img					{ width: 240px; height: 180px; border-radius: 8px }
 
 
+/*
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url("https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2") format('woff2');
+}
 
-footer { padding: 16px 0; margin-top: 64px }
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+}
+
+.tablet {
+	padding: 20px 28px 20px 28px;
+	background: #111;
+	border: 2px solid #507685;
+	border-radius: 18px;
+}
+
+.tablet > main {
+	overflow: hidden;
+	gap: 0;
+	padding: 0;
+	height: 580px;
+	width: 900px;
+	background: #080808;
+	border-radius: 4px;
+	
+	font-size: 12px;
+
+}
+.tablet * { display: flex; flex-direction: column; text-align: left }
+.tablet h1, .tablet h2 { padding: 12px; font-family: "Roboto Bold" }
+.tablet h1 { padding-bottom: 0; font-size: 18px }
+.tablet h2 { font-size: 14px }
+
+.status-bar {
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 6px 16px;
+}
+
+.status-bar *:not(.material-icons) {
+	flex-direction: row;
+	align-items: center;
+	font-family: "Roboto Medium";
+}
+
+.android-box { overflow: hidden; padding: 4px 0; background: #101010; border-radius: 12px }
+
+.toast {
+	position: absolute;
+	opacity: 0;
+	padding: 8px 16px;
+	background: #fffc;
+	color: #000;
+	border-radius: 100px;
+	font-size: 14px;
+	transform: translateY(500px);
+	pointer-events: none;
+	animation-name: animate-toast;
+	animation-duration: 5s;
+}
+
+@keyframes animate-toast {
+	0% { opacity: 0 }
+	5% { opacity: 1 }
+	95% { opacity: 1 }
+	100% { opacity: 0 }
+}
+
+.settings				{ flex-direction: row; padding: 24px 48px; gap: 12px }
+.settings-sidebar		{ flex-direction: column; gap: 12px; min-width: 300px }
+.settings-items			{  }
+.settings-item			{ flex-direction: row; gap: 16px; padding: 8px 16px; background: 0; border: 0; font-size: 13px }
+.settings-item:hover	{ background: #fff1 }
+.settings-item:active	{ background: #080808 }
+.settings-page			{ gap: 12px }
+*/

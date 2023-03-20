@@ -76,8 +76,7 @@
 
 <Box>
 	<h1>📱 i also own two phones 📱</h1>
-	ye<br>
-	here are they're specs
+	<p>ye<br>here are they're specs</p>
 	<div class="table-duoduo">
 		<table>
 			<tr>
