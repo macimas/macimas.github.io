@@ -11,6 +11,10 @@ export default defineConfig({
 				{
 					find: 'lib',
 					replacement: path.resolve(__dirname, "src/lib")
+				},
+				{
+					find: 'json',
+					replacement: path.resolve(__dirname, "src/json")
 				}
 			]
 		}),

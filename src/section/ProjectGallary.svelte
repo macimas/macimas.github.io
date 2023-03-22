@@ -1,6 +1,6 @@
 <script>
-	import Box from "../Box.svelte";
-	import projects from "../json/project gallary.json";
+	import Box from "lib/Box.svelte";
+	import projects from "json/project gallary.json";
 	
 	let index = 0;
 	$: project = projects[index];
@@ -28,7 +28,7 @@
 		</span>
 	</div>
 	<div class="project">
-		<img src={"./img/project/" + project.img}>
+		<img src={"/img/project/" + project.img}>
 		<div class="project-info width-fill-available">
 			<div>
 				{#each project.info as text} {text}<br> {/each}

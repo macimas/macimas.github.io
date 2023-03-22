@@ -1,5 +1,5 @@
 <script>
-	import Box from "../Box.svelte";
+	import Box from "lib/Box.svelte";
 </script>
 
 <Box>

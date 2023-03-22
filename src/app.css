@@ -22,6 +22,7 @@
 
 html { overflow-y: scroll; overflow: overlay }
 body { margin: 0 }
+body * { transition: all 0.5s cubic-bezier(0, 1, 0, 1) }
 .macimas-and-cheese-leave {
 	background: #000 url("macimas and cheese leave.png");
 	animation-name: backgroundLoop;
@@ -85,6 +86,7 @@ code > b			{ font-family: "Liberation Mono Bold" }
 a					{ color: #33e9f1; font-family: unset; text-decoration: none }
 a:hover:not(.no-underline) { margin-bottom: -1px; color: #fff; border-bottom: 1px solid #eee }
 a:active			{ opacity: 0.5 }
+a *					{ pointer-events: none }
 
 table				{ border-collapse: separate }
 td					{ padding: 4px 8px; }
@@ -105,6 +107,7 @@ button.egg {
 	box-shadow: inset 0 0 0 2px #fff1;
 	font-family: "Liberation Sans Regular";
 	font-size: 16px;
+	cursor: pointer;
 }
 button.egg:hover {
 	background: #fff2;
@@ -118,12 +121,10 @@ button.egg:active {
 	transition: background 0.05s;
 }
 
-::-webkit-scrollbar				{ width: 12px; background: 0 }
-::-webkit-scrollbar-thumb		{ background: 0; border: 4px solid #0004; border-radius: 16px; box-shadow: inset 0 0 0px 4px #fff2 }
-::-webkit-scrollbar-thumb:hover { box-shadow: inset 0 0 0px 4px #fffa }
+
 
 .box {
-	overflow: auto;
+	overflow: overlay;
 	display: flex;
 	max-width: 660px;
 	flex-direction: column;
@@ -141,6 +142,39 @@ button.egg:active {
 .box h1			{ letter-spacing: 0px }
 .box:hover h1	{ letter-spacing: 2px }
 
+.modal-container {
+	z-index: 4393;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #0006;
+	transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.modal-container:not(.visible) { opacity: 0; pointer-events: none }
+.modal-container .modal {
+	max-height: 90%;
+	transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.modal-container:not(.visible) .modal {
+	filter: blur(16px);
+	opacity: 0;
+	scale: 4;
+	transition: all 0.3s cubic-bezier(0, 0, 0.5, 0)
+}
+
+.tooltip {
+	z-index: 4393;
+	position: absolute;
+	padding: 6px 12px;
+	background: #161616ee;
+	border: 1px solid #323232;
+	border-radius: 8px;
+	outline: 2px solid #000;
+	pointer-events: none;
+}
 
 .width-fill-available {
 	width: -webkit-fill-available;
@@ -148,6 +182,10 @@ button.egg:active {
 }
 
 
+
+::-webkit-scrollbar				{ width: 12px; background: 0 }
+::-webkit-scrollbar-thumb		{ background: 0; border: 4px solid #0001; border-radius: 16px; box-shadow: inset 0 0 0px 4px #fff2 }
+::-webkit-scrollbar-thumb:hover { box-shadow: inset 0 0 0px 4px #fffa }
 
 main {
 	padding-top: 128px;
@@ -158,7 +196,6 @@ main {
 	animation-name: main-of-wonders;
 	animation-duration: 1s;
 }
-main * { transition: all 0.5s; transition-timing-function: cubic-bezier(0, 1, 0, 1) }
 
 .sections {
 	display: flex;
@@ -190,12 +227,12 @@ main * { transition: all 0.5s; transition-timing-function: cubic-bezier(0, 1, 0,
 		animation-timing-function: cubic-bezier(0, 1, 0, 1);
 	}
 	.logo				{ cursor: pointer; min-width: 399.86px; text-align: center }
-	.logo, .logo img	{ height: 96px }
+	.logo img	{ height: 96px; pointer-events: none }
 	.logo:active img	{ transform: scale(0.8) }
 	.splash-text		{ cursor: pointer; display: block; min-width: 400px; text-align: center }
 	.splash-text code	{ line-height: 18px }
 	.socials			{ display: flex; height: 32px; flex-direction: row; gap: 16px }
-	.socials *			{ cursor: pointer; height: 32px; transition: all .1s cubic-bezier(0, 1, 0, 1); opacity: 96% }
+	.socials a			{ cursor: pointer; height: 32px; transition: all .1s cubic-bezier(0, 1, 0, 1); opacity: 96% }
 	.socials *:hover	{ transform: scale(1.1); opacity: 100% }
 	.socials *:active	{ transform: scale(1); opacity: 80% }
 

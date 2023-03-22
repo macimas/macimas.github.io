@@ -1,14 +1,36 @@
 <script context="module">
+	let modals = {};
+
+	export function modal(id) {
+		return modals[id]
+	}
+</script>
+
+<script>
+	import { onDestroy } from 'svelte';
+
 	export let id = '';
 	let visible = false;
 
-	export function showModal(toId, value) {
-		if (id == toId) visible = value
-	}	
+	function show() {
+		visible = true;
+	}
+
+	function hide() {
+		visible = false;
+	}
+
+	modals[id] = { show, hide };
+
+	onDestroy(() => {
+		delete modals[id];
+	})
 </script>
 
-<dialog style="position:absolute;width:100%;height:100%;background:#000a">
+<div class="modal-container" class:visible on:click={event => {
+	if (event.target.classList.contains('modal-container')) modals[id].hide();
+}}>
 	<div class="box modal">
 		<slot/>
 	</div>
-</dialog>
+</div>

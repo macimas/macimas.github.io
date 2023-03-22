@@ -1,5 +1,5 @@
 <script>
-	import Box from "../Box.svelte"
+	import Box from "lib/Box.svelte"
 </script>
 
 <Box>
@@ -25,7 +25,7 @@
 			</tr>
 			<tr>
 				<td>RAM</td>
-				<td>2 × 4GB DDR3 1333MHz<br>
+				<td>2 × 4 GB DDR3 1333MHz<br>
 					<a href="https://www.amazon.com/Hynix-PC3-10600-DDR3-1333MHz-HMT351S6CFR8C-H9/dp/B00A802OYM">Hynix HMT351S6CFR8C-H9</a>
 				</td>
 			</tr>
