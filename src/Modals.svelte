@@ -1,5 +1,5 @@
 <script>
-	import Modal from "lib/Modal.svelte";
+	import Modal, { modal } from "lib/Modal.svelte";
 </script>
 
 <Modal id="no-help-available">
