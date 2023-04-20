@@ -6,9 +6,7 @@
 @font-face { font-family: "Liberation Sans Italic"; src: url("/font/LiberationSans-Italic.ttf") }
 @font-face { font-family: "Liberation Sans Bold"; src: url("/font/LiberationSans-Bold.ttf") }
 
-@font-face { font-family: "Roboto Regular"; src: url("/font/Roboto/Roboto-Regular.ttf") }
-@font-face { font-family: "Roboto Medium"; src: url("/font/Roboto/Roboto-Medium.ttf") }
-@font-face { font-family: "Roboto Bold"; src: url("/font/Roboto/Roboto-Bold.ttf") }
+@font-face { font-family: "Mindustry Classic"; src: url("/font/Mindustry Classic Font.ttf") }
 
 
 
@@ -18,6 +16,10 @@
 	color: #fff;
 }
 
+.mindustry-classic {
+	font-family: "Mindustry Classic";
+	text-transform: lowercase;
+}
 
 
 html { overflow-y: scroll; overflow: overlay }
@@ -36,13 +38,13 @@ body * { transition: all 0.5s cubic-bezier(0, 1, 0, 1) }
 }
 
 .clickMe:hover * {
-	scale: ;
 	animation-name: clickMeHover;
 	animation-duration: .32s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
 }
 .clickMe:active * {
+	opacity: 0.5;
 	scale: 0.75;
 	animation-name: clickMeActive !important;
 	animation-duration: .16s;
@@ -55,9 +57,9 @@ body * { transition: all 0.5s cubic-bezier(0, 1, 0, 1) }
 	100% { transform: rotate(2deg) }
 }
 @keyframes clickMeActive {
-	0% { filter: opacity(0.5); transform: rotate(4deg) }
-	50% { filter: opacity(0.5); transform: rotate(-4deg) }
-	100% { filter: opacity(0.5); transform: rotate(4deg) }
+	0% { transform: rotate(4deg) }
+	50% { transform: rotate(-4deg) }
+	100% { transform: rotate(4deg) }
 }
 @keyframes main-of-wonders {
 	from { opacity: 0% }
@@ -82,7 +84,7 @@ h1, h2, h3 { font-family: "Liberation Mono Bold"; margin: 0 }
 h1					{ font-size: 24px }
 p					{ margin: 0 }
 b, td:first-child	{ font-family: "Liberation Sans Bold" }
-code				{ font-family: "Liberation Mono Regular"; display: block; margin: 0 }
+code				{ font-family: "Liberation Mono Regular" }
 code > b			{ font-family: "Liberation Mono Bold" }
 a					{ color: #33e9f1; font-family: unset; text-decoration: none }
 a:hover:not(.no-underline) { margin-bottom: -1px; color: #fff; border-bottom: 1px solid #eee }
@@ -230,8 +232,7 @@ main {
 	.logo				{ cursor: pointer; min-width: 399.86px; text-align: center }
 	.logo img	{ height: 96px; pointer-events: none }
 	.logo:active img	{ transform: scale(0.8) }
-	.splash-text		{ cursor: pointer; display: block; min-width: 400px; text-align: center }
-	.splash-text code	{ line-height: 18px }
+	.splash-text		{ user-select: none; cursor: pointer; display: flex; min-width: 400px; line-height: 18px; justify-content: center; text-align: center }
 	.socials			{ display: flex; height: 32px; flex-direction: row; gap: 16px }
 	.socials a			{ cursor: pointer; height: 32px; transition: all .1s cubic-bezier(0, 1, 0, 1); opacity: 96% }
 	.socials *:hover	{ transform: scale(1.2); filter: contrast(2); opacity: 100% }

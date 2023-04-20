@@ -17,8 +17,11 @@
 			<h1>all (default) splash texts</h1>
 			{#each splashTexts.default as splashy, i}
 				<div>
-					<sub style="color:#fff4">{i}. </sub>
-					<code>{@html splashy}</code>
+					<sub style="color:#fff4">{i}.</sub>
+					<br>
+					<div class="splash-text clickMe">
+						<p><code>{@html splashy}</code></p>
+					</div>
 				</div>
 			{/each}
 		</div>

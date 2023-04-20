@@ -67,15 +67,15 @@
 		<div class="logo clickMe" on:click={clikylogo} data-tooltip={logo} use:tooltip>
 			<img src={`/img/logo/${logo}`}>
 		</div>
-		<p class="splash-text clickMe" on:click={changeSplashText}>
-			<code>{@html splashText}</code>
-		</p>
+		<div class="splash-text clickMe" on:click={changeSplashText}>
+			<p><code>{@html splashText}</code></p>
+		</div>
 		<div class="socials">
 			<a class="no-underline" href="https://discord.gg/8V3ch7M" data-tooltip="discord" use:tooltip><img src="/img/icon/discord.svg"></a>
 			<a class="no-underline" href="https://twitter.com/macdowntwo" data-tooltip="twitter" use:tooltip><img src="/img/icon/twitter.svg"></a>
 			<a class="no-underline" href="https://github.com/macimas" data-tooltip="github" use:tooltip><img src="/img/icon/github.svg"></a>
 			<a class="no-underline" href="https://onlyfans.com/mdtwo" data-tooltip="onlyfans" use:tooltip><img src="/img/icon/onlyfans.svg"></a>
-			<a class="no-underline" href="https://www.youtube.com/@mdt2"data-tooltip="youtube" use:tooltip><img src="/img/icon/youtube.svg"></a>
+			<a class="no-underline" href="https://www.youtube.com/@mdt2" data-tooltip="youtube" use:tooltip><img src="/img/icon/youtube.svg"></a>
 			<a class="no-underline" href="https://www.reddit.com/user/ZkyLB/" data-tooltip="reddit" use:tooltip><img src="/img/icon/reddit.svg"></a>
 		</div>
 	</div>

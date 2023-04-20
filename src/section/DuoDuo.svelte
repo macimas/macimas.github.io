@@ -97,7 +97,7 @@
 			</tr>
 			<tr>
 				<td>RAM</td>
-				<td>4GB</td>
+				<td>4 GB</td>
 			</tr>
 			<tr>
 				<td>Storage</td>
@@ -129,7 +129,7 @@
 			</tr>
 			<tr>
 				<td>RAM</td>
-				<td>4GB</td>
+				<td>4 GB</td>
 			</tr>
 			<tr>
 				<td>Storage</td>
