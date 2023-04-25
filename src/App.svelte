@@ -63,7 +63,8 @@
 	{#if clickCount !== 0}
 		<p class="mdt-count">{clickCount}</p>
 	{/if}
-	<div class="macimas">
+	<header class="macimas">
+
 		<div class="logo clickMe" on:click={clikylogo} data-tooltip={logo} use:tooltip>
 			<img src={`/img/logo/${logo}`}>
 		</div>
@@ -78,7 +79,7 @@
 			<a class="no-underline" href="https://www.youtube.com/@mdt2" data-tooltip="youtube" use:tooltip><img src="/img/icon/youtube.svg"></a>
 			<a class="no-underline" href="https://www.reddit.com/user/ZkyLB/" data-tooltip="reddit" use:tooltip><img src="/img/icon/reddit.svg"></a>
 		</div>
-	</div>
+	</header>
 
 	<div class="sections">
 		<Box>
@@ -90,9 +91,10 @@
 			<h1>❓ what i do</h1>
 			<p>
 				1. i play minecraft<br>
-				2. i like to work with vectors and designing ui, logos, n stuff<br>
+				2. i like to work with vectors, designing ui, logos, n stuff<br>
 				3. i sometimes do javascript<br>
-				4. i pirate games and other stuff <small><i>(don’t tell anyone)</i></small>
+				4. i sometimes draw stuff<br>
+				5. i pirate games and other stuff <small><i>(don’t tell anyone)</i></small>
 			</p>
 		</Box>
 
@@ -111,6 +113,5 @@
 
 	<footer class="width-fill-available">
 		<img src="./img/made with love & svelte.png">
-		last updated on March 20, 2023
 	</footer>
 </main>

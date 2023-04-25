@@ -92,12 +92,12 @@ a:active			{ opacity: 0.5 }
 a *					{ pointer-events: none }
 
 table				{ border-collapse: separate }
-td					{ padding: 4px 8px; }
+td					{ padding: 4px 8px }
 td:first-child		{ border-radius: 8px 0 0 8px; text-align: right }
 td:last-child		{ border-radius: 0 8px 8px 0 }
 tr:hover > td		{ background: #fff1; box-shadow: inset 0 0 0 2px #fff1 }
 tr:hover > td:hover	{ background: #fff2; outline: 4px solid #fff0; box-shadow: inset 0 0 0 2px #fff2 }
-tr:hover > td:active{ background: #0000; outline: none; box-shadow: none}
+tr:hover > td:active{ background: #0000; outline: none; box-shadow: none }
 
 
 
@@ -142,8 +142,8 @@ button.egg:active {
 }
 .box:hover		{ border-color: #646464; outline-color: #161616; box-shadow: inset 0 0 0 2px #aaa }
 .box * { text-shadow: 2px 2px black }
-.box h1			{ letter-spacing: 0px }
-.box:hover h1	{ letter-spacing: 2px }
+.box > h1		{ letter-spacing: 0px }
+.box:hover > h1	{ letter-spacing: 2px }
 
 .modal-container {
 	z-index: 4393;
@@ -191,7 +191,6 @@ button.egg:active {
 ::-webkit-scrollbar-thumb:hover { box-shadow: inset 0 0 0px 4px #fffa }
 
 main {
-	padding-top: 128px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -211,10 +210,11 @@ main {
 
 .macimas {
 	display: flex;
-	margin-bottom: 64px;
+	margin-top: 128px;
+	margin-bottom: 48px;
 	flex-direction: column;
 	align-items: center;
-	gap: 8px;
+	gap: 3px;
 	animation-name: macimas-of-wonders;
 	animation-duration: 1s;
 	animation-timing-function: cubic-bezier(0, 1, 0, 1);
@@ -233,7 +233,7 @@ main {
 	.logo img	{ height: 96px; pointer-events: none }
 	.logo:active img	{ transform: scale(0.8) }
 	.splash-text		{ user-select: none; cursor: pointer; display: flex; min-width: 400px; line-height: 18px; justify-content: center; text-align: center }
-	.socials			{ display: flex; height: 32px; flex-direction: row; gap: 16px }
+	.socials			{ display: flex; flex-direction: row; gap: 16px; margin-top: 6px; height: 32px }
 	.socials a			{ cursor: pointer; height: 32px; transition: all .1s cubic-bezier(0, 1, 0, 1); opacity: 96% }
 	.socials *:hover	{ transform: scale(1.2); filter: contrast(2); opacity: 100% }
 	.socials *:active	{ transform: scale(1); opacity: 80% }

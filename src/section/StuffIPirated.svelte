@@ -14,17 +14,20 @@
 		</tr>
 		<tr>
 			<td>Minecraft</td>
-			<td>infinite cube game. 10/10 would buy an mc account, but it's a bit too expensive, even if i can spend money</td>
+			<td>infinite cube game. 10/10 would buy an mc account, but it's a bit too expensive even if i can spend money</td>
 			<td>
-				<b><sub>Pocket Edition</sub></b> roughly mid-2016<br>
-				<b><sub>Java Edition</sub></b> likely July 28, 2019
+				<b><sub>Pocket Edition</sub></b><br>roughly mid 2016<br>
+				<b><sub>Java Edition</sub></b><br>likely July 28, 2019
 			</td>
 			<td>not yet</td>
 		</tr>
 		<tr>
 			<td>Terraria</td>
 			<td>2d minecraft. 9/10 probably won't buy it nor play it again for a few years, but fun</td>
-			<td>early 2021</td>
+			<td>
+				<b><sub>Mobile</sub></b><br>around May 3, 2021<br>
+				<b><sub>Desktop</sub></b><br>early 2021
+			</td>
 			<td>not yet</td>
 		</tr>
 		<tr>
