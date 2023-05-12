@@ -1,5 +1,6 @@
 <script>
 	import Box from "lib/Box.svelte";
+	import Dropdown from "lib/Dropdown.svelte";
 	import { modal } from "lib/Modal.svelte";
 	import { tooltip } from "lib/tooltip.js";
 	import splashTexts from "../json/splash texts.json";
@@ -12,7 +13,10 @@
 <Box>
 	<h1>🦀 the debug box 🦀</h1>
 	hi hello you beautiful dawg, welcome to the debug box 🦀
-	<div><button class="egg">test button</button> <button class="egg" on:click={() => modal('test').show()}>show JCB Bible - Genesis 1: Creation of Heaven and Earth</button></div>
+	<div>
+		<Dropdown options={['egg', 'amongus']}/>
+		<button class="egg" on:click={() => modal('test').show()}>show JCB Bible - Genesis 1: Creation of Heaven and Earth</button>
+	</div>
 
 	<button class="egg" on:click={() => showAllSplashTexts = !showAllSplashTexts}>click me to show all splash texts!</button>
 	{#if showAllSplashTexts}
