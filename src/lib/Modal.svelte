@@ -1,36 +1,41 @@
 <script context="module">
-	let modals = {};
 
-	export function modal(id) {
-		return modals[id]
-	}
+	let modals = {};
+	export const modal = (id) => { return modals[id] };
 </script>
 
 <script>
 	import { onDestroy } from 'svelte';
 
 	export let id = '';
-	let visible = false;
+	export let visible = false;
+	let container_classes = '';
+	let modal_classes = '';
+	export { container_classes as containerclass };
+	export { modal_classes as modalclass }
 
-	function show() {
-		visible = true;
+	container_classes = `${container_classes} modal-container`;
+	modal_classes = `${modal_classes} modal`;
+
+	const show = () => visible = true;
+	const hide = () => visible = false;
+	const toggle = () => visible = !visible;
+
+	function unfocus(event) {
+		if (event.target.classList.contains('modal-container')) {
+			modals[id].hide();
+		}
 	}
 
-	function hide() {
-		visible = false;
-	}
+	modals[id] = { show, hide, toggle };
 
-	modals[id] = { show, hide };
-
-	onDestroy(() => {
-		delete modals[id];
-	})
+	onDestroy(() => delete modals[id]);
 </script>
 
-<div class="modal-container" class:visible on:click={event => {
-	if (event.target.classList.contains('modal-container')) modals[id].hide();
-}}>
-	<div class="box modal">
-		<slot/>
+{#if visible}
+	<div class={container_classes} on:click={unfocus}>
+		<div class={modal_classes}>
+			<slot/>
+		</div>
 	</div>
-</div>
+{/if}

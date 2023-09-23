@@ -1,0 +1,75 @@
+html {
+	background: #fff;
+}
+
+body {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+body * {
+	font-family: monospace;
+	color: #1A1F29;
+}
+
+a:visited {
+	color: #A37ACC;
+}
+
+a {
+	color: #399EE6;
+}
+
+#title {
+	margin: 0;
+	padding: 30px 10px 0 10px;
+	font-size: 35pt;
+	background: #FFD173;
+}
+
+nav {
+	display: flex;
+	font-size: 16pt;
+}
+
+nav > b {
+	padding: 1px 10px;
+	background: #80BFFF;
+}
+
+nav > div {
+	display: inline;
+	padding-top: 1px;
+	flex-grow: 1;
+	background: #80BFFF90;
+}
+
+nav > div > a:hover, nav > div > a:visited {
+	padding: 1px 10px;
+	text-decoration: none;
+	background: #FFFFFF55;
+	color: #242936AA;
+}
+
+nav > div > a, nav > div > a:visited {
+	padding: 1px 10px;
+	text-decoration: none;
+	color: #24293670;
+}
+
+main {
+	padding: 5px 25px;
+}
+
+main * {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 13pt;
+	color: #5C6166;
+}
+
+#footerend {
+	margin: 0;
+	height: 100px;
+	color: #5C6166;
+	background: linear-gradient(#FFD173 40%, #FFFFFF00);
+}

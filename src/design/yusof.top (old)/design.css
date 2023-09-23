@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+	font-family: "Inter", sans-serif;
+	background-color: rgb(20,20,20);
+	color: white;
+}
+
+hr {
+	background-color: rgb(255, 255, 255);
+	border: none;
+	height: 1px;
+}
+
+main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+
+.name {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.name span:nth-child(1) { color: #a1b8ff }
+.name span:nth-child(2) { color: #dedfe6 }
+.name span:nth-child(3) { color: #ff9487 }
+
+.socials {
+	display: flex;
+	justify-content: center;
+	gap: 1ch;
+}
+
+.socials > * { transition: 0.3s }
+.socials > *:hover { scale: 1.4 }
+
+.info {
+	border-radius: 8px;
+	border: 1px solid white;
+	padding: 10px;
+	transition: 0.3s;
+}
+
+.info:hover {
+	scale: 1.2;
+}

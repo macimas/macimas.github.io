@@ -1,27 +1,17 @@
-import path from 'path';
-import { defineConfig } from 'vite';
-import alias from '@rollup/plugin-alias';
+import { resolve } from 'path';
+import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte';
+import dynamicImport from 'vite-plugin-dynamic-import'
+import alias from '@rollup/plugin-alias';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-	plugins: [
-		alias({
-			entries: [
-				{
-					find: 'lib',
-					replacement: path.resolve(__dirname, "src/lib")
-				},
-				{
-					find: 'json',
-					replacement: path.resolve(__dirname, "src/json")
-				},
-				{
-					find: 'public',
-					replacement: path.resolve(__dirname, "public")
-				}
-			]
-		}),
-		svelte()
-	]
-})
+  plugins: [
+    svelte(),
+    alias({
+      entries: [
+        { find: 'lib', replacement: resolve(__dirname, 'src/lib')},
+      ]
+    }),
+    dynamicImport()
+  ],
+});
