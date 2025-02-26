@@ -1,1 +1,0 @@
-import{s as e}from"./splash texts-ece4ff4b.js";let n=a();function*a(){for(;;)yield o(e.default)}function l(){return n.next().value}function o(t){return t[Math.floor(Math.random()*t.length)]}export{l as g};

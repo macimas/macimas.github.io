@@ -1,1 +1,0 @@
-const t=[{label:"discord",url:"https://discord.gg/8V3ch7M"},{label:"twitter",url:"https://twitter.com/macdowntwo"},{label:"github",url:"https://github.com/macimas"},{label:"onlyfans",url:"https://onlyfans.com/mdtwo"},{label:"youtube",url:"https://www.youtube.com/@mdt2"},{label:"reddit",url:"https://www.reddit.com/user/ZkyLB"}];export{t as s};
