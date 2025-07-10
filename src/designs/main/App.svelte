@@ -18,6 +18,10 @@
 	import Kudos from "./sections/Kudos.svelte";
 	import Todo from "./sections/Todo.svelte";
 
+	import titles from "./titles.json";
+
+	import { getRandomItem } from "libs/utils.js";
+
 	const main_sections = [
 		[About,  "🇫🇷 what am i 👤"      ],
 		[Doings, "❓️ what i do 🤔"      ],
@@ -37,7 +41,7 @@
 
 
 <svelte:head>
-	<title>macimas?</title>
+	<title>{getRandomItem(titles)}</title>
 	<link rel="icon" href="./img/tricolor.png">
 </svelte:head>
 
