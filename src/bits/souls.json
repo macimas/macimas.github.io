@@ -1,0 +1,668 @@
+[
+	{
+		"name": "Yorushika",
+		"tags": ["🎵", "👥"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@nbuna"
+		}
+	},
+	{
+		"name": "siinamota",
+		"tags": ["🎵", "🪦"],
+		"links": {
+			"niconico": "https://www.nicovideo.jp/user/5619789",
+			"YouTube (auto)": "https://www.youtube.com/channel/UCm-nLtwclZUI_XkpTpzSuKw"
+		}
+	},
+	{
+		"name": "Iori Kanzaki",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@IoriKanzaki"
+		}
+	},
+	{
+		"name": "YOASOBI",
+		"tags": ["🎵", "👥"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@Ayase_YOASOBI"
+		}
+	},
+	{
+		"name": "PSYQUI",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@_PSYQUI_"
+		}
+	},
+	{
+		"name": "Kairiki bear",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@kairikibear"
+		}
+	},
+	{
+		"name": "Queen",
+		"tags": ["🎵", "👥"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@Queen"
+		}
+	},
+	{
+		"name": "TUYU",
+		"tags": ["🎵", "👥", "🪦"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@TUYU_official"
+		}
+	},
+	{
+		"name": "須田景凪 バルーン",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@KeinaSudaBalloon"
+		}
+	},
+	{
+		"name": "inabakumori",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@inabakumori"
+		}
+	},
+	{
+		"name": "いめ44",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@ime44"
+		}
+	},
+	{
+		"name": "avogado6",
+		"tags": ["✏️", "🎵"],
+		"links": {
+			"Website": "https://www.avogado6.com",
+			"YouTube": "https://www.youtube.com/@avogado6_official"
+		}
+	},
+	{
+		"name": "PinocchioP",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@pinocchiop"
+		}
+	},
+	{
+		"name": "DECO*27",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCGmO0S4S-AunjRdmxA6TQYg"
+		}
+	},
+	{
+		"name": "Technology Connections",
+		"tags": ["📖", "💽", "🎓️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@TechnologyConnections"
+		}
+	},
+	{
+		"name": "Ivory Shard",
+		"tags": ["🎨", "🎭"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCj9zpVkh0RfLuKtsmHBz1vA"
+		}
+	},
+	{
+		"name": "LEMMiNO",
+		"tags": ["📖", "🎨"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@LEMMiNO"
+		}
+	},
+	{
+		"name": "Ahoy",
+		"tags": ["📖", "🎨"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@XboxAhoy"
+		}
+	},
+	{
+		"name": "CGP Grey",
+		"tags": ["📖"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@CGPGrey/"
+		}
+	},
+	{
+		"name": "Posy",
+		"tags": ["🎨", "📖", "🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@PosyMusic"
+		}
+	},
+	{
+		"name": "Linus Boman",
+		"tags": ["🎓️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@LinusBoman"
+		}
+	},
+	{
+		"name": "Veritasium",
+		"tags": ["📖", "⚛️", "🎓"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@veritasium"
+		}
+	},
+	{
+		"name": "Vsauce",
+		"tags": ["📖"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@Vsauce"
+		}
+	},
+	{
+		"name": "MinuteEarth",
+		"tags": ["📖", "⚛️", "🎓"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCeiYXex_fwgYDonaTcSIk6w"
+		}
+	},
+	{
+		"name": "Kurzgesagt",
+		"tags": ["📖", "⚛️", "🎓"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@kurzgesagt"
+		}
+	},
+	{
+		"name": "DougDoug",
+		"tags": ["💻️", "🎭️", "🎮️"],
+		"links": {
+			"YouTube (primary)": "https://www.youtube.com/@DougDoug",
+			"YouTube (secondary)": "https://www.youtube.com/@dougdougdoug"
+		}
+	},
+	{
+		"name": "Alan Becker",
+		"tags": ["🎨", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@alanbecker"
+		}
+	},
+	{
+		"name": "Corridor Digital & Crew",
+		"tags": ["🎨", "👥"],
+		"links": {
+			"YouTube (Corridor Digital)": "https://www.youtube.com/@Corridor",
+			"YouTube (Corridor Crew)": "https://www.youtube.com/@CorridorCrew"
+		}
+	},
+	{
+		"name": "OverSimplified",
+		"tags": ["📖", "🎭️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@OverSimplified"
+		}
+	},
+	{
+		"name": "Sam O'Nella Academy",
+		"tags": ["📖", "🎭️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@SamONellaAcademy"
+		}
+	},
+	{
+		"name": "Frog96",
+		"tags": ["🎵", "🎨"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@frog96_"
+		}
+	},
+	{
+		"name": "GYARI",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@GYARI"
+		}
+	},
+	{
+		"name": "saikawa",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@saikawa6647"
+		}
+	},
+	{
+		"name": "LamazeP",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@LamazeP"
+		}
+	},
+	{
+		"name": "電ǂ鯨",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@ELwhale35",
+			"YouTube (old)": "https://www.youtube.com/@旧旧電鯨"
+		}
+	},
+	{
+		"name": "ZUTOMAYO",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@zutomayo2321"
+		}
+	},
+	{
+		"name": "Eve",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@ooo0eve0ooo"
+		}
+	},
+	{
+		"name": "rachie 🎀💌",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCRbsmnDTHD9-4pEIuG7zYRw"
+		}
+	},
+	{
+		"name": "藍沢落夏",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@r_sei0"
+		}
+	},
+	{
+		"name": "マサラダ",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UC0YCzDj9HuC97mr2BzlaSBg"
+		}
+	},
+	{
+		"name": "■37",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@shikakuzakana"
+		}
+	},
+	{
+		"name": "23.exe",
+		"tags": ["🎵", "🪦"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@23dtmJP"
+		}
+	},
+	{
+		"name": "t k",
+		"tags": ["🎵", "🎨"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@misokabocha"
+		}
+	},
+	{
+		"name": "no name",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@_n_o_name"
+		}
+	},
+	{
+		"name": "髥莏",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@髥莏"
+		}
+	},
+	{
+		"name": "Ro2noki",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@ro2nokichi"
+		}
+	},
+	{
+		"name": "GIRLS BAND CRY",
+		"tags": ["🎵", "👥"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@girlsbandcry"
+		}
+	},
+	{
+		"name": "Ado",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@Ado1024"
+		}
+	},
+	{
+		"name": "Nathan Baggs",
+		"tags": ["💻️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@nathanbaggs"
+		}
+	},
+	{
+		"name": "Solar Sands",
+		"tags": ["📖"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@SolarSands"
+		}
+	},
+	{
+		"name": "Sou",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@niconicoSou"
+		}
+	},
+	{
+		"name": "Porter Robinson",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@porterrobinson"
+		}
+	},
+	{
+		"name": "MIMI",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@MIMI...official"
+		}
+	},
+	{
+		"name": "式浦躁吾",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@shikiura"
+		}
+	},
+	{
+		"name": "阿修",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@4syu"
+		}
+	},
+	{
+		"name": "はるな。",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCLPjJHtPoJNZXvPu8lcQyYg"
+		}
+	},
+	{
+		"name": "Aliey:S",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@s_Aliey"
+		}
+	},
+	{
+		"name": "om",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@ilovealcoholicgirls"
+		}
+	},
+	{
+		"name": "ミ瑞",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@m_imi_zu",
+			"niconico": "https://www.nicovideo.jp/user/130927965"
+		}
+	},
+	{
+		"name": "小津 / Ozu",
+		"tags": ["✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UC5sy_YpNtOXpJezfdWRt-NQ"
+		}
+	},
+	{
+		"name": "d.j.ァネイロ",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@d.j.xaneiro"
+		}
+	},
+	{
+		"name": "ヒトリエ / wowaka",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@hitorieJP"
+		}
+	},
+	{
+		"name": "あだちかすか",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@Adakasu"
+		}
+	},
+	{
+		"name": "ichimaru",
+		"tags": ["✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCoWCF3RRpNT8qzu0bqSzJtQ"
+		}
+	},
+	{
+		"name": "苴",
+		"tags": ["🎵"],
+		"text": [
+			"videos are unlisted",
+			"see her playlist"
+		],
+		"links": {
+			"YouTube": "https://www.youtube.com/@Kaitsuki-Tsuto-asa"
+		}
+	},
+	{
+		"name": "RTGame",
+		"tags": ["🎭️", "🎮️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@RTGame"
+		}
+	},
+	{
+		"name": "A Jolly Wangcore",
+		"tags": ["🎭️", "🎮️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@JollyWangcore"
+		}
+	},
+	{
+		"name": "ifritdiezel",
+		"tags": ["🎭️", "💻️"],
+		"links": {
+			"Website": "https://ifritdiezel.neocities.org"
+		}
+	},
+	{
+		"name": "valtsu41",
+		"tags": ["💻️"],
+		"links": {
+			"GitHub": "https://github.com/valtsu41"
+		}
+	},
+	{
+		"name": "MattKC",
+		"tags": ["📖", "💻️", "💽"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@MattKC"
+		}
+	},
+	{
+		"name": "Idrees",
+		"tags": ["💻️", "💽", "🎨"],
+		"links": {
+			"Website": "https://idreesinc.com"
+		}
+	},
+	{
+		"name": "YellowAfterLife",
+		"tags": ["💻️"],
+		"links": {
+			"Website": "https://yal.cc"
+		}
+	},
+	{
+		"name": "3kliksphilip",
+		"tags": ["🎭️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@3kliksphilip"
+		}
+	},
+	{
+		"name": "OLDUCT",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UChpjzGgboMZeLjnac0SWqbA"
+		}
+	},
+	{
+		"name": "椿",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@椿-p6s"
+		}
+	},
+	{
+		"name": "枝",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCfnCXGjjFPveiMrkcWgGVQg"
+		}
+	},
+	{
+		"name": "さしゃまる",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@Sasyamaru"
+		}
+	},
+	{
+		"name": "Kid Smoko",
+		"tags": ["🎵", "👥"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@kidsmoko9361"
+		}
+	},
+	{
+		"name": "Green wisteria",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@Green_wisteria"
+		}
+	},
+	{
+		"name": "skybldev",
+		"tags": ["💻️", "🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@skybldev"
+		}
+	},
+	{
+		"name": "ZestyLemonade",
+		"tags": ["💻️"],
+		"text": [
+			"he's Basil from OMORI",
+			"if he was a programmer",
+			"also protip: curl website"
+		],
+		"links": {
+			"Website": "https://celery.eu.org"
+		}
+	},
+	{
+		"name": "Natasquare",
+		"tags": ["💻️"],
+		"links": {
+			"Website": "https://nat.is-a.dev"
+		}
+	},
+	{
+		"name": "iogame",
+		"tags": ["🎭️"],
+		"text": [
+			"freaky person"
+		],
+		"links": {
+			"Website": "https://iogame.neocities.org",
+			"GitHub": "https://github.com/braainsiogame"
+		}
+	},
+	{
+		"name": "KazumaKazoodle",
+		"tags": ["💻️"],
+		"text": [
+			"weeb"
+		],
+		"links": {
+			"GitHub": "https://github.com/kazmath"
+		}
+	},
+	{
+		"name": "QmelZ the Void",
+		"tags": ["💻️"],
+		"text": [
+			"he's gonna qmelz you into the void"
+		],
+		"links": {
+			"Website": "https://qmelz.deno.dev" 
+		}
+	},
+	{
+		"name": "TundrumMax",
+		"tags": ["💻️"],
+		"text": [
+			"he's more living life than",
+			"programming these days"
+		],
+		"links": {
+			"GitHub": "https://github.com/TundrumMax"
+		}
+	},
+	{
+		"name": "Ado1928",
+		"tags": ["💻️"],
+		"links": {
+			"GitHub": "https://github.com/ado1928"
+		}
+	},
+	{
+		"name": "Elatronion",
+		"tags": ["💻️", "🎨"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@elatronion"
+		}
+	},
+	{
+		"name": "Analog Hors",
+		"tags": ["💻️"],
+		"links": {
+			"Website": "https://analog-hors.github.io/site/"
+		}
+	},
+	{
+		"name": "iczero",
+		"tags": ["💻️"],
+		"links": {
+			"GitHub": "https://github.com/iczero"
+		}
+	},
+	{
+		"name": "yusof",
+		"tags": ["💻️"],
+		"links": {
+			"Website": "https://zram.sh"
+		}
+	}
+]

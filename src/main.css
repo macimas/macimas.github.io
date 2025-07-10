@@ -1,0 +1,59 @@
+/* :3 */
+
+@font-face {
+	font-family: "Liberation Sans";
+	src: url("assets/fonts/Liberation/LiberationSans-Regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Liberation Sans";
+	src: url("assets/fonts/Liberation/LiberationSans-Bold.ttf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Liberation Mono";
+	src: url("assets/fonts/Liberation/LiberationMono-Regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Liberation Mono";
+	src: url("assets/fonts/Liberation/LiberationMono-Bold.ttf");
+	font-weight: 700;
+}
+
+
+@font-face {
+	font-family: "Mindustry Classic";
+	src: url("assets/fonts/Mindustry Classic.ttf");
+	font-weight: 400;
+}
+
+
+@font-face {
+	font-family: "Minecraft";
+	src: url("assets/fonts/mc/Regular.woff2");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Minecraft";
+	src: url("assets/fonts/mc/Italic.woff2");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Minecraft";
+	src: url("assets/fonts/mc/Bold.woff2");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Minecraft";
+	src: url("assets/fonts/mc/BoldItalic.woff2");
+	font-weight: 700;
+	font-style: italic;
+}

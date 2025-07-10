@@ -1,8 +1,23 @@
-import './app.css'
-import App from './App.svelte'
+import { mount, unmount } from "svelte";
 
-const app = new App({
-  target: document.getElementById('app'),
-})
+import { getCurrentDesign } from "./libs/designs.js";
 
-export default app
+import "./main.css";
+import Splash from "./Splash.svelte";
+
+const design = getCurrentDesign();
+
+const splash = mount(Splash, {
+	target: document.getElementById("splash"),
+	props: { design }
+});
+
+design.component?.then((design) => {
+	mount(design, {
+		target: document.getElementById("app")
+	});
+
+	unmount(splash, {
+		outro: true
+	});
+});

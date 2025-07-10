@@ -1,0 +1,45 @@
+:root, button {
+	color: white;
+
+	font-family: "Minecraft";
+	font-size: 1em;
+}
+
+body {
+	background: darkred;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 6px;
+}
+
+button {
+	cursor: pointer;
+
+	padding: 9px 16px;
+
+	background: #67656D;
+	border: 2px solid black;
+
+	text-shadow:
+		2px 2px rgba(0, 0, 0, 64%);
+
+	box-shadow:
+		inset -2px -4px rgba(0, 0, 0, 32%),
+		inset 2px 2px rgba(255, 255, 255, 50%);
+}
+
+button:hover {
+	color: #ff0;
+}
+
+button:active {
+	color: rgba(255, 255, 255, 64%);
+
+	background: #29292B;
+
+	box-shadow: unset;
+}

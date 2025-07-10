@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Fredoka One';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/fredokaone/v14/k3kUo8kEI-tA1RRcTZGmTlHGCac.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+:root {
+	--accent: #277abd;
+
+	color: white;
+
+	font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+body {
+	margin: unset;
+
+	background: #202020;
+
+	text-align: center;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding-top: 5vh;
+
+	color: black;
+	background: var(--accent);
+
+	font-family: "Fredoka One";
+	font-size: 5vw;
+	font-weight: normal;
+}
+
+header * {
+	user-select: none;
+}
+
+header > span {
+	position: absolute;
+
+	text-shadow: 4px 4px 4px var(--accent);
+
+	transition: color 100ms ease-in;
+}
+
+header:hover span {
+	color: #fff;
+}
+
+h1 {
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+}
+
+h2 {
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h3 {
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 15.4px;
+}
+
+blockquote {
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+pre {
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+}

@@ -1,0 +1,126 @@
+[
+	{
+		"name": "🐏 bullshit",
+		"items": [
+			{
+				"name": "lovecalc",
+				"image": "lovecalc.png",
+				"links": {
+					"open": "https://macimas.github.io/lovecalc"
+				},
+				"text": [
+					"calculate the percentage how much one loves the other",
+					"",
+					"inspired by the !lc custom tag for carl-bot that i made for a discord server"
+				]
+			},
+			{
+				"name": "little people",
+				"links": {
+					"open": "https://macimas.github.io/little-people"
+				},
+				"text": [
+					"people that i kinda know, that i turn into little people"
+				]
+			},
+			{
+				"name": "v3 tweakity",
+				"image": "v3-stuff.png",
+				"links": {
+					"github repo": "https://github.com/macimas/stylin/tree/main/v3"
+				},
+				"text": [
+					"personal tweak stuff for Vorapis 2013"
+				]
+			},
+			{
+				"name": "this website",
+				"image": "website.png",
+				"links": {
+					"website": "./"
+				},
+				"text": [
+					"recursssion"
+				]
+			}
+		]
+	},
+	{
+		"name": "🫕 fonts",
+		"items": [
+			{
+				"name": "mac's Minecraft",
+				"image": "bennett.png",
+				"links": {
+					"github repo": "https://github.com/macimas-fonts/macsMinecraft"
+				},
+				"text": [
+					"a rough 1:1 recreation of the Minecraft font",
+					"",
+					"well ok that description is a bit misleading",
+					"it actually hosts other fonts with the niche things!"
+				]
+			},
+			{
+				"name": "other fonts...",
+				"image": "other-fonts.png",
+				"links": {
+					"github repo": "https://github.com/macimas-fonts/fonts"
+				},
+				"text": [
+					"collection of other small and experimental fonts"
+				]
+			}
+		]
+	},
+	{
+		"name": "🎮 games",
+		"items": [
+			{
+				"name": "adocubes",
+				"image": "adocubes.png",
+				"links": {
+					"discord server": "https://discord.gg/rNMTeADfnc",
+					"github repo": "https://github.com/ado1928/ado-cubes"
+				},
+				"text": [
+					"r/place but 3d. dead",
+					"",
+					"contributed mostly to front-end,",
+					"did a little bit of the back-end",
+					"",
+					"code is kind of a mess though..."
+				]
+			},
+			{
+				"name": "smiley face game",
+				"image": "sfg.png",
+				"links": {
+					"game link": "https://dev-smiley-face-game.sirjosh3917.com",
+					"wiki link": "https://sfg.fandom.com/wiki/SFG_Wiki"
+				},
+				"text": [
+					"a recreation of an old game called Everybody Edits",
+					"",
+					"provided sprites for the sign tiles,",
+					"and created the wiki for it"
+				]
+			}
+		]
+	},
+	{
+		"name": "🌳 dead minecraft server",
+		"items": [
+			{
+				"name": "bitter!mc",
+				"image": "bitter!mc.png",
+				"links": {
+					"website": "https://bittermc.github.io"
+				},
+				"text": [
+					"a dead minecraft server i made"
+				]
+			}
+		]
+	}
+]

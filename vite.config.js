@@ -1,15 +1,61 @@
-import { resolve } from 'path';
-import { defineConfig } from 'vite'
-import { svelte } from '@sveltejs/vite-plugin-svelte';
-import alias from '@rollup/plugin-alias';
+import path from "node:path";
+import { defineConfig } from "vite";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
+import moment from "moment";
 
 export default defineConfig({
-  plugins: [
-    svelte(),
-    alias({
-      entries: [
-        { find: 'lib', replacement: resolve(__dirname, 'src/lib')},
-      ]
-    })
-  ],
-});
+	plugins: [
+		svelte({
+			onwarn(warning, handler) {
+				const warnings = [
+					"a11y_click_events_have_key_events",
+					"a11y_missing_attribute"
+				];
+
+				if (warnings.includes(warning.code)) {
+					return;
+				}
+
+				handler(warning);
+			}
+		})
+	],
+	resolve: {
+		alias: [
+			{
+				find: "libs",
+				replacement: path.join(Deno.cwd(), "src", "libs")
+			},
+			{
+				find: "bits",
+				replacement: path.join(Deno.cwd(), "src", "bits")
+			},
+			{
+				find: "assets",
+				replacement: path.join(Deno.cwd(), "src", "assets")
+			},
+			{
+				find: "@",
+				customResolver(source, importer) {
+					source = source.split("/");
+					importer = importer.split("/");
+
+					source.shift();
+
+					const index = importer.lastIndexOf("designs");
+
+					if (!index) {
+						return;
+					}
+
+					importer = importer.slice(index - 1, index + 2);
+
+					return path.join(Deno.cwd(), ...importer, ...source);
+				}
+			}
+		]
+	},
+	define: {
+		__LAST_UPDATED__: JSON.stringify(moment().format("D/M/YYYY, h:m:s a"))
+	}
+})

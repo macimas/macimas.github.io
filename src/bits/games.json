@@ -1,0 +1,224 @@
+[
+	{
+		"name": "Growtopia",
+		"link": null,
+		"tags": ["📦️", "🪙"],
+		"text": [
+			"2d mmo sandbox",
+			"nostalgic little game"
+		],
+		"items": [
+			{
+				"name": "Mobile",
+				"text": "mid 2013"
+			},
+			{
+				"name": "Desktop",
+				"text": "2017?"
+			}
+		]
+	},
+	{
+		"name": "Minecraft",
+		"link": null,
+		"tags": ["💵", "🏴‍☠️"],
+		"text": [
+			"3d terraria",
+			"would buy an mc account someday,",
+			"though would probably put it off for a while",
+			"10/10"
+		],
+		"items": [
+			{
+				"name": "Pocket Edition Lite",
+				"text": "mid 2013?"
+			},
+			{
+				"name": "Pocket Edition",
+				"text": "mid 2016"
+			},
+			{
+				"name": "Java Edition",
+				"text": "likely July 28, 2019"
+			},
+			{
+				"name": "Bedrock Edition",
+				"text": "February 5, 2023"
+			}
+		]
+	},
+	{
+		"name": "Geometry Dash",
+		"link": null,
+		"tags": ["💵", "🏴‍☠️"],
+		"text": [
+			"2d platformer game",
+			"its fun but i dont really plan on playing it anytime soon"
+		],
+		"items": [
+			{
+				"name": "Mobile",
+				"text": "mid 2016"
+			},
+			{
+				"name": "Desktop",
+				"text": "not yet"
+			}
+		]
+	},
+	{
+		"name": "Magic Rampage",
+		"link": null,
+		"tags": ["📦️", "🪙", "🪲"],
+		"text": [
+			"2d platformer game from Brazil",
+			"my dad introduced me to this game",
+			"it's pretty fun"
+		],
+		"items": [
+			{
+				"name": "Mobile",
+				"text": "2018?"
+			},
+			{
+				"name": "Desktop",
+				"text": "not yet"
+			}
+		]
+	},
+	{
+		"name": "Terraria",
+		"link": null,
+		"tags": ["💵", "🏴‍☠️"],
+		"text": [
+			"2d minecraft",
+			"probably won't buy it nor play it again for a few years, but fun",
+			"9/10"
+		],
+		"items": [
+			{
+				"name": "Mobile",
+				"text": "around May 3, 2021"
+			},
+			{
+				"name": "Desktop",
+				"text": "early 2021"
+			}
+		]
+	},
+	{
+		"name": "Mutilate-a-Doll 2",
+		"link": null,
+		"tags": ["💵", "🏴‍☠️"],
+		"text": [
+			"little 2d sandbox game about ragdolls",
+			"besides killing a lot of dolls, i like making environments with it",
+			"10/10 would buy"
+		],
+		"items": [
+			{
+				"name": null,
+				"text": "mid 2021"
+			}
+		]
+	},
+	{
+		"name": "Super WorldBox",
+		"link": null,
+		"tags": ["💵", "📦️", "🏴‍☠️"],
+		"text": [
+			"very cool god game",
+			"would buy someday",
+			"10/10"
+		],
+		"items": [
+			{
+				"name": "Desktop",
+				"text": "late 2021"
+			},
+			{
+				"name": "Mobile",
+				"text": "2023"
+			}
+		]
+	},
+	{
+		"name": "Garry's Mod",
+		"link": null,
+		"tags": ["💵", "🏴‍☠️"],
+		"text": [
+			"s&box"
+		],
+		"items": [
+			{
+				"name": null,
+				"text": "2022?"
+			}
+		]
+	},
+	{
+		"name": "Factorio",
+		"link": null,
+		"tags": ["💵", "🏴‍☠️"],
+		"text": [
+			"i wanted to play, but wine said:",
+			"Failed to compile shader",
+			"__core__/graphics/shaders/sprites.vsh as vs_4_0"
+		],
+		"items": [
+			{
+				"name": null,
+				"text": "around February 11, 2022"
+			}
+		]
+	},
+	{
+		"name": "Vib-Ribbon",
+		"link": null,
+		"tags": ["🏴‍☠️"],
+		"text": [
+			"simple rhythm game with an awesome soundtrack",
+			"9/10"
+		],
+		"items": [
+			{
+				"name": null,
+				"text": "2023?"
+			}
+		]
+	},
+	{
+		"name": "OMORI",
+		"link": null,
+		"tags": ["💵", "🏴‍☠️"],
+		"text": [
+			"trauma game",
+			"only pirated it to extract some sprites"
+		],
+		"items": [
+			{
+				"name": null,
+				"text": "February 20, 2023"
+			}
+		]
+	},
+	{
+		"name": "Sandbox Zombies",
+		"link": null,
+		"tags": ["💵", "📦️", "🏴‍☠️"],
+		"text": [
+			"little pixely sandbox with people, zombies,",
+			"demons, ghosts, turrets, and other stuff"
+		],
+		"items": [
+			{
+				"name": null,
+				"text": "2021?"
+			},
+			{
+				"name": "piracy",
+				"text": "2024?"
+			}
+		]
+	}
+]

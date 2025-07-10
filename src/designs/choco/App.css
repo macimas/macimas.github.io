@@ -1,0 +1,49 @@
+
+:root {
+	--bg-1: #0F0D0B;
+	--bg-2: #36281F;
+
+	--fg-1: #FFE0C2;
+
+	--highlight: #74584B;
+}
+
+::selection {
+	background: var(--highlight);
+	color: #fff;
+}
+
+html {
+	background: var(--bg-1);
+	color: var(--fg-1);
+
+	font-family: "JF Dot K14";
+	font-size: 14px;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+
+	max-width: 636px;
+}
+
+#app > * {
+	margin-bottom: 10px;
+	padding: 10px;
+
+	background: var(--bg-2);
+}
+
+p, li {
+	margin: unset;
+	margin-bottom: 10px;
+}
+
+a {
+	color: var(--fg-1);
+}
+
+ul {
+	margin: unset;
+}

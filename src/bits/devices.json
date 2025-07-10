@@ -1,0 +1,87 @@
+[
+	{
+		"name": "💻️ laptops 💻️",
+		"items": [
+			{
+				"unavailable": false,
+				"name": "lenobo",
+				"model": "[Lenovo G500](/pdf/lenobo_specs.pdf)",
+				"cpu": "Intel Core i7-3540M",
+				"gpu": "Intel HD Graphics 4000",
+				"ram": [
+					"16 GB (8 GB DDR3 1600MHz 2×)",
+					"Hynix HMT351S6AFR8C-PB"
+				],
+				"storage": [
+					"500 GB",
+					"[Samsung 850 EVO SATA SSD](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-850-evo-2-5-sata-iii-250gb-mz-75e250b-am)"
+				],
+				"os": [
+					"EndeavourOS XFCE",
+					"Windows 10"
+				],
+				"notes": [
+					"seems like seller replaced the cpu?",
+					"also no Bluetooth"
+				]
+			},
+			{
+				"unavailable": true,
+				"name": "dining",
+				"model": "[dynabook R732/G](https://dynabook.com/direct/pc-static/before2016/pc1/catalog/2012/r732g/spec.html)",
+				"cpu": "Intel Core i3-3110M",
+				"gpu": "Intel HD Graphics 4000",
+				"ram": null,
+				"storage": null,
+				"os": null,
+				"notes": "☠️ dead"
+			}
+		]
+	},
+	{
+		"name": "📱 phones 📱",
+		"items": [
+			{
+				"unavailable": false,
+				"name": "smasnug",
+				"model": "[Samsung Galaxy A05s](https://www.gsmarena.com/samsung_galaxy_a05s-12584.php)",
+				"ram": "4 GB",
+				"storage": [
+					"128 GB Internal storage",
+					"64 GB SDXC SanDisk"
+				],
+				"os": [
+					"One UI 7.0",
+					"(Android 15)"
+				],
+				"notes": null
+			},
+			{
+				"unavailable": false,
+				"name": "inferno",
+				"model": "[Infinix Hot 11 2022](https://www.gsmarena.com/infinix_hot_11_2022-11478.php)",
+				"ram": "4 GB",
+				"storage": [
+					"64 GB Internal storage"
+				],
+				"os": [
+					"XOS 7.6",
+					"(Android 11)"
+				],
+				"notes": null
+			},
+			{
+				"unavailable": true,
+				"name": "lenowo",
+				"model": "[Lenovo S5](https://www.gsmarena.com/lenovo_s5-9116.php)",
+				"ram": "4 GB",
+				"storage": "64 GB Internal storage",
+				"os":  [
+					"HavocOS",
+					"(Android 9)"
+				],
+				"notes": "☠️ dead (battery)"
+			}
+		]
+	}
+]
