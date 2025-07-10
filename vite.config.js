@@ -50,7 +50,7 @@ export default defineConfig({
 
 					importer = importer.slice(index - 1, index + 2);
 
-					return path.join(Deno.cwd(), ...importer, ...source);
+					return path.join(import.meta.dirname, ...importer, ...source);
 				}
 			}
 		]
