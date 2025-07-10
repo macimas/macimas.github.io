@@ -24,15 +24,15 @@ export default defineConfig({
 		alias: [
 			{
 				find: "libs",
-				replacement: path.join(Deno.cwd(), "src", "libs")
+				replacement: path.join(import.meta.dirname, "src", "libs")
 			},
 			{
 				find: "bits",
-				replacement: path.join(Deno.cwd(), "src", "bits")
+				replacement: path.join(import.meta.dirname, "src", "bits")
 			},
 			{
 				find: "assets",
-				replacement: path.join(Deno.cwd(), "src", "assets")
+				replacement: path.join(import.meta.dirname, "src", "assets")
 			},
 			{
 				find: "@",
