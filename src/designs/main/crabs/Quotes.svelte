@@ -56,6 +56,12 @@
 			]
 		},
 		{
+			name: "LateNightCommits",
+			text: [
+				"https://latenightcommits.com"
+			]
+		},
+		{
 			name: "me!"
 		},
 		{
