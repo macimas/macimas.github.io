@@ -1,0 +1,84 @@
+body {
+	background: url("./bg.png");
+
+	font-family: sans;
+}
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 600px;
+
+	background: white;
+
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: unset;
+}
+
+.square {
+	z-index: -1;
+
+	position: fixed;
+
+	box-sizing: border-box;
+
+	height: 65%;
+
+	aspect-ratio: 1/1;
+
+	border: 50px solid #fff;
+	
+	animation-name: rotate;
+	animation-duration: 32s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+	&.n2, &.n4, &.n6 {
+		animation-direction: reverse;
+	}
+
+	&.n1 {
+		top: 10%;
+		left: 15%;
+	}
+
+	&.n2 {
+		top: 30%;
+		left: 20%;
+	}
+
+	&.n3 {
+		top: 50%;
+		left: 25%;
+	}
+
+	&.n4 {
+		top: 10%;
+		right: 15%;
+
+		border-color: #4169E1;
+	}
+
+	&.n5 {
+		top: 30%;
+		right: 20%;
+
+		border-color: #EAEAEA;
+	}
+
+	&.n6 {
+		top: 50%;
+		right: 25%;
+
+		border-color: #FF341C;
+	}
+}
+
+@keyframes rotate {
+	from { transform: rotate(0deg) }
+	to { transform: rotate(360deg) }
+}
