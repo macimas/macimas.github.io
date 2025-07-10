@@ -56,6 +56,6 @@ export default defineConfig({
 		]
 	},
 	define: {
-		__LAST_UPDATED__: JSON.stringify(moment().format("D/M/YYYY, h:m:s a"))
+		__LAST_UPDATED__: JSON.stringify(Date.now())
 	}
 })

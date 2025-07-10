@@ -1,9 +1,8 @@
 <script>
 	import { createFooters } from "libs/footers.svelte.js";
-
 	import { addModal } from "@/Modals.svelte";
-
 	import { crab_status } from "@/libs/crab.svelte.js";
+	import moment from "moment";
 
 	import CrabFooters from "@/crabs/Footers.svelte";
 
@@ -21,6 +20,8 @@
 			});
 		}
 	}
+
+	const last_updated = moment(__LAST_UPDATED__).format("LL, LTS");
 </script>
 
 
@@ -31,5 +32,5 @@
 
 	<img src={loving} alt="love and svelte">
 
-	<p>last updated on {__LAST_UPDATED__}</p>
+	<p>last updated on {last_updated}</p>
 </footer>
