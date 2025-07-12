@@ -1,13 +1,14 @@
 import path from "node:path";
 import { defineConfig } from "vite";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
-import moment from "moment";
 
 export default defineConfig({
 	plugins: [
 		svelte({
 			onwarn(warning, handler) {
 				const warnings = [
+					"a11y_no_noninteractive_element_interactions",
+					"a11y_no_static_element_interactions",
 					"a11y_click_events_have_key_events",
 					"a11y_missing_attribute"
 				];

@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"libs/*": ["./src/libs/*"],
+			"bits/*": ["./src/bits/*"],
+			"assets/*": ["./src/assets/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"]
+}
