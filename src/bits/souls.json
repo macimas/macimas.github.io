@@ -107,6 +107,13 @@
 		}
 	},
 	{
+		"name": "Captain Disillusion",
+		"tags": ["📖", "🎓", "🎭"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCEOXxzW2vU0P-0THehuIIeg"
+		}
+	},
+	{
 		"name": "Ivory Shard",
 		"tags": ["🎨", "🎭"],
 		"links": {
@@ -327,6 +334,13 @@
 		}
 	},
 	{
+		"name": "A Jolly Wangcore",
+		"tags": ["🎭️", "🎮️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@JollyWangcore"
+		}
+	},
+	{
 		"name": "GIRLS BAND CRY",
 		"tags": ["🎵", "👥"],
 		"links": {
@@ -345,6 +359,27 @@
 		"tags": ["🎵"],
 		"links": {
 			"YouTube": "https://www.youtube.com/@Ado1024"
+		}
+	},
+	{
+		"name": "Harumaki Gohan",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCgbTJ0Qb1OpA0GEocaJ7qrw"
+		}
+	},
+	{
+		"name": "Hiiragi Magnetite",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCFXkDxCa_XVcNC7oOEw7U5g"
+		}
+	},
+	{
+		"name": "Inkbox",
+		"tags": ["📖", "💽", "💻", "🎨"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCBciYThS5hOiuQ4aOxw4hHg"
 		}
 	},
 	{
@@ -433,6 +468,13 @@
 		}
 	},
 	{
+		"name": "桶屋-Okeya",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/channel/UCnS_utsB4KwdMDkegMXSxhA/videos"
+		}
+	},
+	{
 		"name": "d.j.ァネイロ",
 		"tags": ["🎵"],
 		"links": {
@@ -451,6 +493,13 @@
 		"tags": ["🎵"],
 		"links": {
 			"YouTube": "https://www.youtube.com/@Adakasu"
+		}
+	},
+	{
+		"name": "MattKC",
+		"tags": ["📖", "💻️", "💽"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@MattKC"
 		}
 	},
 	{
@@ -479,10 +528,10 @@
 		}
 	},
 	{
-		"name": "A Jolly Wangcore",
-		"tags": ["🎭️", "🎮️"],
+		"name": "Footprint Hero with Alex Beale",
+		"tags": ["📖", "💽"],
 		"links": {
-			"YouTube": "https://www.youtube.com/@JollyWangcore"
+			"YouTube": "https://www.youtube.com/channel/UCLnGgnj-hneDI3CFzBmdGLg"
 		}
 	},
 	{
@@ -500,10 +549,15 @@
 		}
 	},
 	{
-		"name": "MattKC",
-		"tags": ["📖", "💻️", "💽"],
+		"name": "ZestyLemonade",
+		"tags": ["💻️"],
+		"text": [
+			"he's Basil from OMORI",
+			"if he was a programmer",
+			"also protip: curl website"
+		],
 		"links": {
-			"YouTube": "https://www.youtube.com/@MattKC"
+			"Website": "https://celery.eu.org"
 		}
 	},
 	{
@@ -549,6 +603,13 @@
 		}
 	},
 	{
+		"name": "skybldev",
+		"tags": ["💻️", "🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@skybldev"
+		}
+	},
+	{
 		"name": "さしゃまる",
 		"tags": ["🎵"],
 		"links": {
@@ -567,25 +628,6 @@
 		"tags": ["🎵"],
 		"links": {
 			"YouTube": "https://www.youtube.com/@Green_wisteria"
-		}
-	},
-	{
-		"name": "skybldev",
-		"tags": ["💻️", "🎵"],
-		"links": {
-			"YouTube": "https://www.youtube.com/@skybldev"
-		}
-	},
-	{
-		"name": "ZestyLemonade",
-		"tags": ["💻️"],
-		"text": [
-			"he's Basil from OMORI",
-			"if he was a programmer",
-			"also protip: curl website"
-		],
-		"links": {
-			"Website": "https://celery.eu.org"
 		}
 	},
 	{

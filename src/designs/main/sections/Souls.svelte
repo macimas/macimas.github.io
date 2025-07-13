@@ -10,9 +10,11 @@
 
 
 <p>
-	cool shit with emoji tags :p
-	<br>
-	things are ordered by roughly how much i like them, how often i watch/listen to them, and among other factors
+	stuff are ordered by roughly how much i like them, how often i watch/listen to them, and among other factors
+</p>
+
+<p>
+	you can probably tell i like music people
 </p>
 
 <div class="list">
