@@ -2,8 +2,6 @@
 	import { scale } from "libs/transitions.js";
 
 	const { design } = $props();
-
-	import "./Splash.less";
 </script>
 
 

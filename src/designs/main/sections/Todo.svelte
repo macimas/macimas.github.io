@@ -27,6 +27,14 @@
 			"-- [natalie's website](https://nat.is-a.dev)",
 			"-- Youtube-styled website",
 			"-- Android 11 cats generator"
+		],
+		[
+			"achievements",
+			"**Bad Logo** -- see every random logo",
+			"**Carousel of Text** -- see every random quote",
+			"**It's Over 9000!** -- click logo or quote 9001 times",
+			"**Internet Explorer** -- visit every design",
+			"**You rock!** -- defeat macimas with rocks"
 		]
 	];
 </script>

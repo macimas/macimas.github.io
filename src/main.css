@@ -12,6 +12,7 @@
 	font-weight: 700;
 }
 
+
 @font-face {
 	font-family: "Liberation Mono";
 	src: url("assets/fonts/Liberation/LiberationMono-Regular.ttf");
@@ -56,4 +57,42 @@
 	src: url("assets/fonts/mc/BoldItalic.woff2");
 	font-weight: 700;
 	font-style: italic;
+}
+
+
+#splash,
+#splash *,
+#achievements,
+#achievements * {
+	all: unset;
+}
+
+#splash,
+#splash main,
+#achievements,
+#achievements main {
+	pointer-events: none;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	overflow: hidden;
+
+	font-size: 16px;
+	font-family: "Minecraft";
+}
+
+
+#splash main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	background: black;
+
+	text-align: center;
 }
