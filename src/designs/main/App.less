@@ -457,6 +457,7 @@ img.box {
 	}
 }
 
+
 #app {
 	display: flex;
 	flex-direction: column;
@@ -468,6 +469,10 @@ img.box {
 	& > * {
 		width: 100%;
 		max-width: @content-width;
+	}
+
+	& * {
+		transition: var(--transition);
 	}
 
 	@media (max-width: @content-width) {
@@ -483,15 +488,11 @@ img.box {
 	animation-name: blurry;
 	animation-duration: 1s;
 	animation-timing-function: var(--transition-timing-function);
-
-	@keyframes blurry {
-		from { filter: blur(128px) }
-		to {}
-	}
 }
 
-#app * {
-	transition: var(--transition);
+@keyframes blurry {
+	from { filter: blur(128px) }
+	to {}
 }
 
 
@@ -573,34 +574,41 @@ header {
 }
 
 
-footer {
+#app footer {
+	position: relative;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 16px;
 
+	margin-top: 12px;
 	padding: 32px 0;
 
-	background: linear-gradient(#0000, #000);
-}
-
-#app footer {
 	max-width: unset;
-}
 
-footer .footer {
-	padding: 16px;
+	background: linear-gradient(#0000, #000);
+
+	text-align: center;
 }
 
 .footer {
-	justify-items: center;
+	&.clicky {
+		padding: 16px;
+	}
 
-	&.clicky:hover {
+	&.clicky:hover > img {
 		.emphasize();
 	}
 
 	img {
+		justify-self: center;
+		
 		max-width: 100%;
+	}
+
+	.count {
+		top: 0;
 	}
 }
 

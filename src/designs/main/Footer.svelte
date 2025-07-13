@@ -26,8 +26,16 @@
 
 
 <footer>
-	<div class="footer clicky crabby" onclick={footerClick}>
+	<div class="footer clicky crabby" onclick={footerClick}>	
 		<img class="box" src={footers.current.url}>
+
+		{#if footers.count}
+			{#key footers.count}
+				<small class="count">
+					{footers.count}
+				</small>
+			{/key}
+		{/if}
 	</div>
 
 	<img src={loving} alt="love and svelte">

@@ -64,8 +64,6 @@ export const footers = (() => {
 	return footers;
 })();
 
-console.log(footers);
-
 
 
 export function createFooters() {
