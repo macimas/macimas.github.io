@@ -1,11 +1,11 @@
 <script>
+	import moment from "moment";
 	import { createFooters } from "libs/footers.svelte.js";
+
 	import { addModal } from "@/Modals.svelte";
 	import { crab_status } from "@/libs/crab.svelte.js";
-	import moment from "moment";
 
 	import CrabFooters from "@/crabs/Footers.svelte";
-
 	import loving from "@/assets/love-and-svelte.png";
 
 	const footers = createFooters();

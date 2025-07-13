@@ -1,6 +1,5 @@
 <script>
 	import { footers } from "libs/footers.svelte.js";
-
 	import { parseText } from "libs/utils.js";
 </script>
 

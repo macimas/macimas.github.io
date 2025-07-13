@@ -2,12 +2,11 @@
 	import { createLogos } from "libs/logos.svelte.js";
 	import { createQuotes } from "libs/quotes.svelte.js";
 
-	import { addModal } from "@/Modals.svelte";
+	import { addModal } from "./Modals.svelte";
+	import { crab_status } from "./libs/crab.svelte.js";
 
-	import { crab_status } from "@/libs/crab.svelte.js";
-
-	import CrabLogos from "@/crabs/Logos.svelte";
-	import CrabQuotes from "@/crabs/Quotes.svelte";
+	import CrabLogos from "./crabs/Logos.svelte";
+	import CrabQuotes from "./crabs/Quotes.svelte";
 
 	const logos = createLogos();
 	const quotes = createQuotes();
