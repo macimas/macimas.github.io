@@ -26,7 +26,7 @@
 
 
 <footer>
-	<div class="footer clicky crabby" onclick={footerClick}>	
+	<div class="footer clicky crabby" onclick={footerClick}>
 		<img class="box" src={footers.current.url}>
 
 		{#if footers.count}

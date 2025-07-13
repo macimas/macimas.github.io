@@ -65,7 +65,6 @@ export const footers = (() => {
 })();
 
 
-
 export function createFooters() {
 	const obj = $state({
 		current: null,
