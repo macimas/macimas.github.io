@@ -13,7 +13,7 @@ export const logos = (() => {
 		timed: []
 	};
 
-	const data = import.meta.glob("assets/logo/*/*", {
+	const data = import.meta.glob("assets/logos/*/*", {
 		eager: true,
 		query: "?no-inline",
 		import: "default"

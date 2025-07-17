@@ -5,13 +5,13 @@ export const footers = (() => {
 	const footers = {};
 	const info = {};
 
-	const data_footers = import.meta.glob(["assets/footer/*/*.*", "!**/*.md"], {
+	const data_footers = import.meta.glob(["assets/footers/*/*.*", "!**/*.md"], {
 		eager: true,
 		query: "?no-inline",
 		import: "default"
 	});
 
-	const data_info = import.meta.glob(["assets/footer/*/*.md"], {
+	const data_info = import.meta.glob(["assets/footers/*/*.md"], {
 		eager: true,
 		query: "?raw",
 		import: "default"

@@ -23,7 +23,7 @@
 			<div class="list">
 				{#each category.items as item}
 					<div class="item">
-						<img src={"/img/project/" + (item.image || "ohno.png")} style="width:fit-content">
+						<img src={"/img/projects/" + (item.image || "ohno.png")} style="width:fit-content">
 
 						<b>{item.name}</b>
 
