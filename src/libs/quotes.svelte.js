@@ -1,7 +1,7 @@
 console.log("💬 quotes");
 
 
-import { getRandomIndex, parseText } from "libs/utils.js";
+import { getRandomIndex, parseText } from "libs/utils.ts";
 
 import { time } from "libs/specials.js";
 

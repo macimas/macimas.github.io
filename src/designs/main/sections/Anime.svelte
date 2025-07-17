@@ -22,6 +22,7 @@
 	<div class="item">
 		<p>✅ = finished ({getTagAmount("✅")})</p>
 		<p>▶️ = trying to finish ({getTagAmount("▶️")})</p>
+		<p>❔ = unsure to finish ({getTagAmount("❔")})</p>
 		<p>❌ = dropped ({getTagAmount("❌")})</p>
 	</div>
 	<div class="item">

@@ -1,7 +1,7 @@
 console.log("🖼️ logos");
 
 
-import { getRandomIndex } from "libs/utils.js";
+import { getRandomIndex } from "libs/utils.ts";
 
 import { time } from "libs/specials.js";
 

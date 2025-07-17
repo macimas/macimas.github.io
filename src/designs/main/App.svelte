@@ -20,7 +20,7 @@
 
 	import titles from "./titles.json";
 
-	import { getRandomItem } from "libs/utils.js";
+	import { getRandomItem } from "libs/utils.ts";
 
 	const main_sections = [
 		[About,  "🇫🇷 what am i 👤"      ],

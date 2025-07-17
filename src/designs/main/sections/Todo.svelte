@@ -1,5 +1,5 @@
 <script>
-	import { parseText } from "libs/utils.js"
+	import { parseText } from "libs/utils.ts"
 
 	const todos = [
 		[

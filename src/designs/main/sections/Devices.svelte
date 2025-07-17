@@ -1,7 +1,7 @@
 <script>
 	import moment from "moment";
 
-	import { parseText } from "libs/utils.js";
+	import { parseText } from "libs/utils.ts";
 	//import { getDevices } from "libs/devices.js";
 	import devices from "bits/devices.json";
 

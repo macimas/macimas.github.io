@@ -1,8 +1,56 @@
 [
 	{
+		"name": "Turkey! Time to Strike",
+		"tags": ["❔", "🆗"],
+		"text": [
+			"July 16, 2025 - ..."
+		]
+	},
+	{
+		"name": "The Shy Hero and the Assassin Princesses",
+		"tags": ["▶️", "🆗"],
+		"text": [
+			"what is this, some kind of KonoSuba?",
+			"July 16, 2025 - ..."
+		]
+	},
+	{
+		"name": "Sakamoto Days (S2)",
+		"tags": ["▶️", "🛢️"],
+		"text": [
+			"assasinations",
+			"July 16, 2025 - ..."
+		]
+	},
+	{
+		"name": "City The Animation",
+		"tags": ["▶️", "🥚"],
+		"text": [
+			"they the people",
+			"July 16, 2025 - ..."
+		]
+	},
+	{
+		"name": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability (S2)",
+		"tags": ["▶️", "🆗"],
+		"text": [
+			"scurvy",
+			"July 14, 2025 - ..."
+		]
+	},
+	{
+		"name": "Dan Da Dan (S2)",
+		"tags": ["▶️", "🛢️"],
+		"text": [
+			"yet another season of balls",
+			"July 14, 2025 - ..."
+		]
+	},
+	{
 		"name": "Zatsu Tabi: That's Journey",
 		"tags": ["▶️", "🆗"],
 		"text": [
+			"exploring japan",
 			"June 22, 2025 - ..."
 		]
 	},
@@ -10,6 +58,7 @@
 		"name": "Apocalypse Hotel",
 		"tags": ["✅", "🛢️"],
 		"text": [
+			"AI and aliens",
 			"May 21, 2025 - June 26"
 		]
 	},
@@ -17,6 +66,7 @@
 		"name": "KonoSuba: God's Blessing on This Wonderful World! 3 OVA",
 		"tags": ["✅", "🆗"],
 		"text": [
+			"duo duo and uh",
 			"April 26, 2025"
 		]
 	},
@@ -24,6 +74,7 @@
 		"name": "From Old Country Bumpkin to Master Swordsman",
 		"tags": ["✅", "🆗"],
 		"text": [
+			"humble man",
 			"April 19, 2025 - June 22"
 		]
 	},
@@ -31,6 +82,7 @@
 		"name": "I've Been Killing Slimes for 300 Years and Maxed Out My Level (S1)",
 		"tags": ["✅", "🆗"],
 		"text": [
+			"chillax slime",
 			"April 6, 2025? - April 20"
 		]
 	},
@@ -126,7 +178,7 @@
 		]
 	},
 	{
-		"name": "Sakamoto Days",
+		"name": "Sakamoto Days (S1)",
 		"tags": ["✅", "🥚"],
 		"text": [
 			"January 15, 2025 - March"
@@ -187,7 +239,7 @@
 		]
 	},
 	{
-		"name": "Dandadan",
+		"name": "Dan Da Dan (S1)",
 		"tags": ["✅", "🥚"],
 		"text": [
 			"October, 2024 - December"
@@ -302,7 +354,7 @@
 		"tags": ["✅", "🆗"]
 	},
 	{
-		"name": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+		"name": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability (S1)",
 		"tags": ["✅", "🆗"],
 		"text": [
 			"April, 2024 - June"
