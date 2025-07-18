@@ -725,7 +725,23 @@
 				"info": "https://www.youtube.com/watch?v=gm4cTX_niSY"
 			},
 			"i came",
-			"here i am!"
+			"here i am!",
+			{
+				"text": "I EMERGE FROM THE STINKY.",
+				"info": "https://youtu.be/88paScl6fGA"
+			},
+			"so much stolen quotes!",
+			"it's just you and me",
+			"stop staring at me!",
+			"i yearn for a reason to live",
+			"3 frames per minute!",
+			"made with Svelte!",
+			"badly optimized!",
+			"not as shiney",
+			"my hands are typing words",
+			"hands up!",
+			"no longer innocent",
+			"no longer stable"
 		],
 
 		"commit_names": [
@@ -843,7 +859,12 @@
 			"ok removed a BUNCH of files, and reogranized a ton of random crap",
 			"Shit appears to be working",
 			"fuck it we ball",
-			"fixed stupid god damn oversight"
+			"fixed stupid god damn oversight",
+			"yolo push",
+			"yet another quality commit",
+			"add colors css and maybe some other things im forgetting too late for git diff i already added",
+			"feat: nvm",
+			"whatthecommit.com’s server IP address could not be found."
 		],
 
 		"cool_shit": [

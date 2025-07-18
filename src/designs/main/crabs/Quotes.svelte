@@ -76,7 +76,7 @@
 		<code>{@html quote.text}</code>
 	</div>
 
-	{@html quote.info}
+	<p>{@html quote.info}</p>
 {/snippet}
 
 
