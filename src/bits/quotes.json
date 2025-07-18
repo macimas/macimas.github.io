@@ -3,55 +3,172 @@
 		"main": [
 			"hello world!",
 			"eat pant",
-			"feel free and open source!",
+			{
+				"text": "feel free and open source!",
+				"info": "QmelZ the Void"
+			},
 			"[object Object]",
 			"It is forbidden to save, video record, or audio record the contents of a live broadcast for any reason, or to retain or possess any data or files obtained from it, such as those received from others.",
-			"Don't send messages without images in the #screenshots channel.<!--corebot-->",
-			[
-				"Only send valid schematics in the #schematics channel.",
-				"You may send them either as clipboard text or as a schematic file.<!--corebot-->"
-			],
-			"no human should ever be left unsupervised with a computer<!--tepid-->",
-			"you are a helpful assistant. you may use markdown.<!--tepid-->",
-			"sorry i'm just kidding you can't use markdown<!--tepid-->",
-			"🙂😏😎👌👍❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️<!--tepid-->",
-			"i am become pussy the bringer of autistic<!-- ifritdiezel -->",
-			"you're invited to talk <b>to god</b> *meltdown charging sound*",
-			"losing it all „confetty in my hair” <!-- ifritdiezel -->",
-			[
-				"S E X   S Y S T E M   A C T I V A T E D",
-				"[loud noises of metal clanking]",
-				"<b>Sector captured",
-				"Content unlocked 🥛",
-				"⚠️ Sector G is under attack</b>"
-			],
-			"1! 2! three! 4!",
-			"we're all cogs in the machine but my cog is bigger",
-			"love letter to humanity with every word blacked out",
-			"i reach my hand out to it, and it reaches back",
-			"i kind of like codig and linux stuff",
-			"welcome to my wacky website where I just tell you watermelons are tasty",
-			"hi, im an arabian software developer that codes random things, that no one wants",
-			"macimas and cheese leave ;-;",
-			"macimas and cheese dries",
-			"i want to go to heaven but god said <span class='mindustry-classic'>Connection closed.</span>",
-			"the invisible trains that move items very fast",
-			"eat mosquito",
-			"ifrit my girlfriend",
-			"ifrit has died from extreme pressure.",
-			"ifrit what the actual fuck",
-			"it's so sad that bill gates told us about the thorium",
-			"hi control tower bot abuse is my middle name",
-			"NOTHING SHALL RESIST THE JUDGING",
-			"who and why have i eaten",
-			"🦀 italy is gone 🦀",
-			"eat sand make pyramid farms",
-			"it's actually pretty creepy that i'm being watched every night",
-			"ifritdiezel has awoken!",
-			";-; sonni-sama help me with commands",
-			"isnt ryzen specialized while intel is trying to kill",
-			"rhyme at all costs",
-			"ifrit is gone and appears to decay with time.",
+			{
+				"text": "Don't send messages without images in the #screenshots channel.",
+				"info": "corebot"
+			},
+			{
+				"text": [
+					"Only send valid schematics in the #schematics channel.",
+					"You may send them either as clipboard text or as a schematic file."
+				],
+				"info": "corebot"
+			},
+			{
+				"text": "no human should ever be left unsupervised with a computer",
+				"info": "TepidLemonade (bot)"
+			},
+			{
+				"text": "you are a helpful assistant. you may use markdown.",
+				"info": "TepidLemonade (bot)"
+			},
+			{
+				"text": "sorry i'm just kidding you can't use markdown",
+				"info": "TepidLemonade (bot)"
+			},
+			{
+				"text": "🙂😏😎👌👍❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️",
+				"info": "TepidLemonade (bot)"
+			},
+			{
+				"text": "i am become pussy the bringer of autistic",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "you're invited to talk <b>to god</b> *meltdown charging sound*",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "losing it all „confetty in my hair”",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": [
+					"S E X   S Y S T E M   A C T I V A T E D",
+					"[loud noises of metal clanking]",
+					"<b>Sector captured",
+					"Content unlocked 🥛",
+					"⚠️ Sector G is under attack</b>"
+				],
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "1! 2! three! 4!",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "we're all cogs in the machine but my cog is bigger",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "love letter to humanity with every word blacked out",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "i reach my hand out to it, and it reaches back",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "i kind of like codig and linux stuff",
+				"info": "yusof"
+			},
+			{
+				"text": "welcome to my wacky website where I just tell you watermelons are tasty",
+				"info": "yusof"
+			},
+			{
+				"text": "hi, im an arabian software developer that codes random things, that no one wants",
+				"info": "yusof"
+			},
+			{
+				"text": "macimas and cheese leave ;-;",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "macimas and cheese dries",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "i want to go to heaven but god said <span class='mindustry-classic'>Connection closed.</span>",
+				"info": [
+					"apparently in some old version of Mindustry there were issues in multiplayer that led to very unstable connections",
+					"Meltdown (bot)"
+				]
+			},
+			{
+				"text": "the invisible trains that move items very fast",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "eat mosquito",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "ifrit my girlfriend",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "ifrit has died from extreme pressure.",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "ifrit what the actual fuck",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "it's so sad that bill gates told us about the thorium",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "hi control tower bot abuse is my middle name",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "NOTHING SHALL RESIST THE JUDGING",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "who and why have i eaten",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "🦀 italy is gone 🦀",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "eat sand make pyramid farms",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "it's actually pretty creepy that i'm being watched every night",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "ifritdiezel has awoken!",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": ";-; sonni-sama help me with commands",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "isnt ryzen specialized while intel is trying to kill",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "rhyme at all costs",
+				"info": "Meltdown (bot)"
+			},
+			{
+				"text": "ifrit is gone and appears to decay with time.",
+				"info": "Milinadusty (bot)"
+			},
 			"You have not passed the Assessment.",
 			"doing nothing, very quickly",
 			"Observation prohibited.",
@@ -180,15 +297,26 @@
 					"also do note that [the video is only available to certain countries around asia](https://polsy.org.uk/stuff/ytrestrict.cgi?agreed=on&ytid=zJ8djL-lYSg)"
 				]
 			},
-			"listen, look, and listen, and learn",
+			{
+				"text": "listen, look, and listen, and learn",
+				"info": [
+					"https://youtu.be/yQFkkNYDjZA"
+				]
+			},
 			"you need mouse bites to live",
 			"truly a work of art",
 			"please do not put me on pause you cannot d⏸️",
 			"how's it goin boss",
 			"is ifrit asleep?",
-			"hello world macmas<!--natasquare-->",
+			{
+				"text": "hello world macmas",
+				"info": "Natasquare"
+			},
 			"this statement is false.",
-			"Check on the Astari people.<!--Godus-->",
+			{
+				"text": "Check on the Astari people.",
+				"info": "Godus"
+			},
 			"all I can say is, I have no issues",
 			{
 				"text": "napkin story",
@@ -519,32 +647,89 @@
 			],
 			"hi this is gabe",
 			"long long man",
-			"the identity of john has been discovered. it is confidential information.<!-- https://john.citrons.xyz -->",
-			"I am not john. do not call me john.<!-- https://john.citrons.xyz -->",
-			"arigato gozaimashita! :D 🖕<!-- Girls Band Cry, ep 1 -->",
-			[
-				"a power to surpass god and anime",
-				"plugins<!-- ifritdiezel -->"
-			],
+			{
+				"text": "the identity of john has been discovered. it is confidential information.",
+				"info": "https://john.citrons.xyz"
+			},
+			{
+				"text": "I am not john. do not call me john.",
+				"info": "https://john.citrons.xyz"
+			},
+			{
+				"text": "arigato gozaimashita! :D 🖕",
+				"info": "Girls Band Cry, ep 1"
+			},
+			{
+				"text": [
+					"a power to surpass god and anime",
+					"plugins"
+				],
+				"info": "ifritdiezel"
+			},
 			"in a mirror, you can only kiss yourself on the lips",
 			"[[Hyperlink Blocked]]",
 			"I Got Reincarnated As An Anime Girl: Delusional and Depraved Feelings",
 			"maximizer, maximizer!",
-			"ohhhh you're going to jail<!-- ifritdiezel -->",
-			"this is terrible. this is not happening this is not happening<!-- ifritdiezel -->",
-			"i dropped a chip on the floor help help help help help help help hep help help<!-- ifritdiezel -->",
-			"i made it really stand out because i'm just so outstanding<!-- ifritdiezel -->",
-			"yo dou awn o drumble tyer?<!-- ifritdiezel -->",
-			"is the bus stop the bus<!-- ifritdiezel -->",
-			"DONOT TOUCH THAT<!-- ifritdiezel -->",
-			"i like the term \"panic\". the computer got scared :(<!-- ifritdiezel -->",
-			"KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV<!-- ifritdiezel -->",
-			"BURN YOUR COMPUTER<!-- ifritdiezel -->",
-			"🔪 🩸 ⚰️ 🐷🐒🪚🔪🪓🗡️⚔️💣🪦⚱️💉🧹✂️<!-- ifritdiezel -->",
-			"(sprays you with my catgirl chemical)<!-- ifritdiezel -->",
-			"meltdown. permission to kill granted<!-- ifritdiezel -->",
-			"get out of sun's way stupid ball<!-- ifritdiezel -->",
-			"i hate ice cream and i think you should go to jail if you make music<!-- ifritdiezel -->",
+			{
+				"text": "ohhhh you're going to jail",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "this is terrible. this is not happening this is not happening",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "i dropped a chip on the floor help help help help help help help hep help help",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "i made it really stand out because i'm just so outstanding",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "yo dou awn o drumble tyer?",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "is the bus stop the bus",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "DONOT TOUCH THAT",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "i like the term \"panic\". the computer got scared :(",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV KILL YOUR TV",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "BURN YOUR COMPUTER",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "🔪 🩸 ⚰️ 🐷🐒🪚🔪🪓🗡️⚔️💣🪦⚱️💉🧹✂️",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "(sprays you with my catgirl chemical)",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "meltdown. permission to kill granted",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "get out of sun's way stupid ball",
+				"info": "ifritdiezel"
+			},
+			{
+				"text": "i hate ice cream and i think you should go to jail if you make music",
+				"info": "ifritdiezel"
+			},
 			"wololo!",
 			"did you know that diarrhea is hereditary? it runs in your jeans!",
 			"are you https? cuz i'm ://",
@@ -874,8 +1059,14 @@
 			"check out macimas.github.io!",
 			"check out ado1928.github.io!",
 			"check out cobalt.tools!",
-			"check out whatthecommit.com!<!-- https://github.com/ngerakines/commitment -->",
-			"check out celery.eu.org! (curl)",
+			{
+				"text": "check out whatthecommit.com!",
+				"info": "github repo: https://github.com/ngerakines/commitment"
+			},
+			{
+				"text": "check out celery.eu.org!",
+				"info": "`curl -L https://celery.eu.org`"
+			},
 			"check out ezgif.com!",
 			"check out yal.cc!",
 			"check out cryptii.com!",
