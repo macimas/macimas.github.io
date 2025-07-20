@@ -1,7 +1,14 @@
 [
 	{
-		"name": "The Water Magician",
+		"name": "Witch Watch",
 		"tags": ["▶️", "🛢️"],
+		"text": [
+			"July 19, 2025 - ..."
+		]
+	},
+	{
+		"name": "The Water Magician",
+		"tags": ["▶️", "🆗"],
 		"text": [
 			"July 18, 2025 - ..."
 		]
@@ -64,7 +71,7 @@
 	},
 	{
 		"name": "Zatsu Tabi: That's Journey",
-		"tags": ["▶️", "🆗"],
+		"tags": ["❔", "🆗"],
 		"text": [
 			"exploring japan",
 			"June 22, 2025 - ..."
