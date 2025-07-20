@@ -17,6 +17,7 @@
 	import Devices from "./sections/Devices.svelte";
 	import Kudos from "./sections/Kudos.svelte";
 	import Todo from "./sections/Todo.svelte";
+	import Texts from "./sections/Texts.svelte";
 
 	import titles from "./titles.json";
 
@@ -29,13 +30,14 @@
 	];
 
 	const secondary_sections = [
-		[Gallary, "🖼️", "🖼️ project gallary 🥚"   ],
-		[Souls,   "🗿", "🗿 souls i like/know ❤️" ],
-		[Games,   "🎮️", "🎮️ games i've played 🏴‍☠️" ],
-		[Anime,   "🇯🇵", "🗾 anime i've watched 😏"],
-		[Devices, "💻️", "💻️ my old devices 📱"    ],
-		[Kudos,   "🎉", "🎉 kudos"                ],
-		[Todo,    "📝", "📝 todo stuff"           ]
+		[Gallary, "🖼️ project gallary 🥚"   ],
+		[Souls,   "🗿 souls i like/know ❤️" ],
+		[Games,   "🎮️ games i've played 🏴‍☠️" ],
+		[Anime,   "🗾 anime i've watched 😏"],
+		[Devices, "💻️ my old devices 📱"    ],
+		[Kudos,   "🎉 kudos"                ],
+		[Todo,    "📝 todo stuff"           ],
+		[Texts,   "📰 texts"                ]
 	];
 </script>
 
@@ -61,7 +63,7 @@
 	<p>info i guess</p>
 
 	<div class="list">
-		{#each secondary_sections as [component, icon, name]}
+		{#each secondary_sections as [component, name]}
 			<button onclick={() => addModal({ component, name })}>
 				{name}
 			</button>
