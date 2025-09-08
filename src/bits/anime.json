@@ -1,5 +1,33 @@
 [
 	{
+		"name": "Dungeons & Television (ONA)",
+		"tags": ["✅", "🛢️"],
+		"text": [
+			"August 28, 2025"
+		]
+	},
+	{
+		"name": "Nyaight of the Living Cat",
+		"tags": ["❌", "🫀"],
+		"text": [
+			"August 28, 2025 - ..."
+		]
+	},
+	{
+		"name": "Apocalypse Bringer Mynoghra: World Conquest Starts with the Civilization of Ruin",
+		"tags": ["▶️", "🆗"],
+		"text": [
+			"August, 2025 - ..."
+		]
+	},
+	{
+		"name": "Kaiju No. 8 (S2)",
+		"tags": ["✅", "🛢️"],
+		"text": [
+			"July 21, 2025 - ..."
+		]
+	},
+	{
 		"name": "Witch Watch",
 		"tags": ["▶️", "🛢️"],
 		"text": [
@@ -23,10 +51,10 @@
 	},
 	{
 		"name": "Turkey! Time to Strike",
-		"tags": ["❔", "🆗"],
+		"tags": ["❌", "🆗"],
 		"text": [
 			"bowling and civil wars",
-			"July 16, 2025 - ..."
+			"July 16, 2025 - ?"
 		]
 	},
 	{
@@ -71,10 +99,10 @@
 	},
 	{
 		"name": "Zatsu Tabi: That's Journey",
-		"tags": ["❔", "🆗"],
+		"tags": ["❌", "🆗"],
 		"text": [
 			"exploring japan",
-			"June 22, 2025 - ..."
+			"June 22, 2025 - ?"
 		]
 	},
 	{
@@ -413,7 +441,7 @@
 		]
 	},
 	{
-		"name": "Kaiju No. 8",
+		"name": "Kaiju No. 8 (S1)",
 		"tags": ["✅", "🛢️"],
 		"text": [
 			"April, 2024 - June"
@@ -480,6 +508,13 @@
 		"tags": ["✅", "🆗"],
 		"text": [
 			"January, 2024 - March"
+		]
+	},
+	{
+		"name": "Call of the Night",
+		"tags": ["✅", "🛢️"],
+		"text": [
+			"January 25, 2024 - January"
 		]
 	},
 	{

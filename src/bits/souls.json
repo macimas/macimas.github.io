@@ -228,24 +228,17 @@
 		}
 	},
 	{
+		"name": "d.j.ァネイロ",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@d.j.xaneiro"
+		}
+	},
+	{
 		"name": "GYARI",
 		"tags": ["🎵", "✏️"],
 		"links": {
 			"YouTube": "https://www.youtube.com/@GYARI"
-		}
-	},
-	{
-		"name": "saikawa",
-		"tags": ["🎵", "✏️"],
-		"links": {
-			"YouTube": "https://www.youtube.com/@saikawa6647"
-		}
-	},
-	{
-		"name": "LamazeP",
-		"tags": ["🎵", "✏️"],
-		"links": {
-			"YouTube": "https://www.youtube.com/@LamazeP"
 		}
 	},
 	{
@@ -278,17 +271,17 @@
 		}
 	},
 	{
+		"name": "23.exe",
+		"tags": ["🎵", "🪦"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@23dtmJP"
+		}
+	},
+	{
 		"name": "藍沢落夏",
 		"tags": ["🎵"],
 		"links": {
 			"YouTube": "https://www.youtube.com/@r_sei0"
-		}
-	},
-	{
-		"name": "マサラダ",
-		"tags": ["🎵"],
-		"links": {
-			"YouTube": "https://www.youtube.com/channel/UC0YCzDj9HuC97mr2BzlaSBg"
 		}
 	},
 	{
@@ -299,17 +292,17 @@
 		}
 	},
 	{
-		"name": "23.exe",
-		"tags": ["🎵", "🪦"],
-		"links": {
-			"YouTube": "https://www.youtube.com/@23dtmJP"
-		}
-	},
-	{
 		"name": "t k",
 		"tags": ["🎵", "🎨"],
 		"links": {
 			"YouTube": "https://www.youtube.com/@misokabocha"
+		}
+	},
+	{
+		"name": "髥莏",
+		"tags": ["🎵"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@髥莏"
 		}
 	},
 	{
@@ -320,10 +313,24 @@
 		}
 	},
 	{
-		"name": "髥莏",
+		"name": "saikawa",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@saikawa6647"
+		}
+	},
+	{
+		"name": "LamazeP",
+		"tags": ["🎵", "✏️"],
+		"links": {
+			"YouTube": "https://www.youtube.com/@LamazeP"
+		}
+	},
+	{
+		"name": "マサラダ",
 		"tags": ["🎵"],
 		"links": {
-			"YouTube": "https://www.youtube.com/@髥莏"
+			"YouTube": "https://www.youtube.com/channel/UC0YCzDj9HuC97mr2BzlaSBg"
 		}
 	},
 	{
@@ -472,13 +479,6 @@
 		"tags": ["🎵"],
 		"links": {
 			"YouTube": "https://www.youtube.com/channel/UCnS_utsB4KwdMDkegMXSxhA/videos"
-		}
-	},
-	{
-		"name": "d.j.ァネイロ",
-		"tags": ["🎵"],
-		"links": {
-			"YouTube": "https://www.youtube.com/@d.j.xaneiro"
 		}
 	},
 	{

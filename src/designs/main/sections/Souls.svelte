@@ -40,7 +40,7 @@
 
 <div class="list">
 	{#each souls as item, i}
-		{#if (i < 32) || show_all}
+		{#if (i < 42) || show_all}
 			<div class="item">
 				<div>
 					{#each item.tags as tag}
