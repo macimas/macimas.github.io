@@ -929,7 +929,21 @@
 			"no longer stable",
 			"blood full of sodium and iron!",
 			"this is not for the faint of heart",
-			"look up fnaf claymation"
+			"look up fnaf claymation",
+			"my darling, my companion",
+			{
+				"text": "I am a large language model, trained by Google.",
+				"info": "Gemini 2.5 Flash Lite is so silly"
+			},
+			{
+				"text": "fuuuuck the eternal blight skeleton is here",
+				"info": "https://www.tumblr.com/ifritdiezel/797764427964350464/fuuuuck-the-eternal-blight-skeleton-is-here"
+			},
+			{
+				"text": "feel free to fork the project under a",
+				"info": "apparently the lead developer of GZDOOM (Graf Zahl) is a piece of shit"
+			},
+			"that's a pretty nice <span style='color:dodgerblue'>house</span> you've got there"
 		],
 
 		"commit_names": [
@@ -1052,7 +1066,7 @@
 			"yet another quality commit",
 			"add colors css and maybe some other things im forgetting too late for git diff i already added",
 			"feat: nvm",
-			"whatthecommit.com’s server IP address could not be found.",
+			"whatthecommit.com’s server IP address could not be found."
 		],
 
 		"cool_shit": [
@@ -1074,7 +1088,8 @@
 			"check out yal.cc!",
 			"check out cryptii.com!",
 			"check out massgrave.dev!",
-			"check out replaceitem.net!"
+			"check out replaceitem.net!",
+			"check out fmhy.net!"
 		]
 	},
 
