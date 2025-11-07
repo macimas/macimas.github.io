@@ -16,5 +16,7 @@ export const texts = (() => {
 		texts.push({ date, name, value });
 	}
 
+	texts.sort(() => 1);
+
 	return (texts);
 })();
