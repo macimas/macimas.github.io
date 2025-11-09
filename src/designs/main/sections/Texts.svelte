@@ -1,7 +1,7 @@
 <script>
 	import moment from "moment";
 
-	import { parse } from "libs/utils";
+	import { parseText } from "libs/utils.js";
 	import { texts } from "libs/texts.js";
 </script>
 
@@ -10,6 +10,6 @@
 	<div class="box">
 		<b>{text.date}</b>
 
-		<p>{@html parse(text.value)}</p>
+		<p>{@html parseText(text.value)}</p>
 	</div>
 {/each}

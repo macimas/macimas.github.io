@@ -1,0 +1,2 @@
+- updated quotes, anime, doings, and souls
+- added a new logo (lucida.to)
