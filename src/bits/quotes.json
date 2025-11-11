@@ -943,7 +943,11 @@
 				"text": "feel free to fork the project under a",
 				"info": "apparently the lead developer of GZDOOM (Graf Zahl) is a piece of shit"
 			},
-			"that's a pretty nice <span style='color:dodgerblue'>house</span> you've got there"
+			"that's a pretty nice <span style='color:dodgerblue'>house</span> you've got there",
+			{
+				"text": "you are unbanned from free ham sandwich day",
+				"info": "DELTARUNE"
+			}
 		],
 
 		"commit_names": [
