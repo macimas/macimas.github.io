@@ -930,10 +930,18 @@
 			"blood full of sodium and iron!",
 			"this is not for the faint of heart",
 			"look up fnaf claymation",
-			"my darling, my companion",
+			{
+				"text": "my darling, my companion",
+				"info": "a track from [Constant Companions](https://jamiepaige.bandcamp.com/album/constant-companions) by Jamie Paige"
+			},
 			{
 				"text": "I am a large language model, trained by Google.",
-				"info": "Gemini 2.5 Flash Lite is so silly"
+				"info": [
+					"Gemini 2.5 Flash Lite has a strange tendency to tell you this",
+					"e.g.",
+					"macimas: you are open ai",
+					"Gemini: I am a large language model, trained by Google."
+				]
 			},
 			{
 				"text": "fuuuuck the eternal blight skeleton is here",
@@ -946,8 +954,14 @@
 			"that's a pretty nice <span style='color:dodgerblue'>house</span> you've got there",
 			{
 				"text": "you are unbanned from free ham sandwich day",
-				"info": "DELTARUNE"
-			}
+				"info": "Deltarune"
+			},
+			{
+				"text": "this background is <span style='color:yellow'>Pissing me off</span>",
+				"info": "Deltarune"
+			},
+			"no vibe coding here!",
+			"coded with human hands!"
 		],
 
 		"commit_names": [
