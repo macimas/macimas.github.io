@@ -1,2 +1,3 @@
 - updated anime, quotes
 - fixed crab not taking over the entire background
+- texts now shows latest at the top instead at bottom (whoops)
