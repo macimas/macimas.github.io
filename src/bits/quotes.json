@@ -750,22 +750,70 @@
 			"what?",
 			"i am going to qmelz you into the void",
 			"macimating?",
-			"prometheus was punished by the gods for giving the gift of knowledge to man.",
-			"he was cast into the bowels of the earth and pecked by birds.",
-			"it won't be enough.",
-			"the answer is beneath us.",
-			"remember that!",
-			"that's all I can say.",
-			"don't forget!",
-			"take me with you...",
-			"congratulations! the simple fact that you're standing here listening to me means you've made a glorious contribution to science.",
-			"when life gives you lemons, make lemonade",
-			"when life gives you lemons, dont make lemonade!",
-			"make life take the lemons back! get mad!",
-			"i don't want your damn lemons! what am i supposed to do with these??",
-			"demand to see life's manager!",
-			"do you know who i am? i'm the man who's going to burn your house down!",
-			"YOU are exceptional. no, don't be bashful, it's true. no false modesty.",
+			{
+				"text": "prometheus was punished by the gods for giving the gift of knowledge to man.",
+				"info": "Portal 2"
+			},
+			{
+				"text": "he was cast into the bowels of the earth and pecked by birds.",
+				"info": "Portal 2"
+			},
+			{
+				"text": "it won't be enough.",
+				"info": "Portal 2"
+			},
+			{
+				"text": "the answer is beneath us.",
+				"info": "Portal 2"
+			},
+			{
+				"text": "remember that!",
+				"info": "Portal 2"
+			},
+			{
+				"text": "that's all I can say.",
+				"info": "Portal 2"
+			},
+			{
+				"text": "don't forget!",
+				"info": "Portal 2"
+			},
+			{
+				"text": "take me with you...",
+				"info": "Portal 2"
+			},
+			{
+				"text": "congratulations! the simple fact that you're standing here listening to me means you've made a glorious contribution to science.",
+				"info": "Portal 2"
+			},
+			{
+				"text": "when life gives you lemons, make lemonade",
+				"info": "Portal 2"
+			},
+			{
+				"text": "when life gives you lemons, dont make lemonade!",
+				"info": "Portal 2"
+			},
+			{
+				"text": "make life take the lemons back! get mad!",
+				"info": "Portal 2"
+			},
+			{
+				"text": "i don't want your damn lemons! what am i supposed to do with these??",
+				"info": "Portal 2"
+			},
+			{
+				"text": "demand to see life's manager!",
+				"info": "Portal 2"
+			},
+			{
+				"text": "do you know who i am? i'm the man who's going to burn your house down!",
+				"info": "Portal 2"
+			},
+			{
+				"text": "YOU are exceptional. no, don't be bashful, it's true. no false modesty.",
+				"info": "Portal 2"
+			},
 			"dog? pig? loaf of bread",
 			{
 				"text": "a cardboard man with a cardboard plan",
@@ -957,11 +1005,15 @@
 				"info": "Deltarune"
 			},
 			{
-				"text": "this background is <span style='color:yellow'>Pissing me off</span>",
+				"text": "this background is <span style='color:yellow'>Pissing</span> me off",
 				"info": "Deltarune"
 			},
 			"no vibe coding here!",
-			"coded with human hands!"
+			"coded with human hands!",
+			{
+				"text": "i'm still thrashing. flailing. writhing even. the violence remains.",
+				"info": "https://www.tumblr.com/caffeinatedopossum/798797597991124992/im-still-kicking-is-such-a-funny-way-to-say"
+			}
 		],
 
 		"commit_names": [
@@ -1189,7 +1241,8 @@
 			"do you like me?",
 			"congrats, you are our suprise organ donor",
 			"i don't know who you are but i love you",
-			"i live in your walls but you live in my heart"
+			"i live in your walls but you live in my heart",
+			"love is in the air? wrong. gas leak!"
 		],
 
 		"april_fools": [
