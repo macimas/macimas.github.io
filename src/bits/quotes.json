@@ -95,7 +95,7 @@
 				"info": "Meltdown (bot)"
 			},
 			{
-				"text": "i want to go to heaven but god said <span class='mindustry-classic'>Connection closed.</span>",
+				"text": "i want to go to heaven but god said <span style=\"font-family:'Mindustry Classic'\">connection closed.</span>",
 				"info": [
 					"apparently in some old version of Mindustry there were issues in multiplayer that led to very unstable connections",
 					"Meltdown (bot)"
@@ -200,7 +200,7 @@
 			"🥑 stuff the avocado",
 			"what do you want me to do",
 			"you know a certain person isn't online because nobody has mentioned debian yet",
-			"dont hug me I'm scared",
+			"don't hug me i'm scared",
 			"stop it, get some help",
 			"yeah we're all suffering horribly",
 			[
@@ -292,7 +292,7 @@
 				"text": "This effect requires GPU acceleration",
 				"info": [
 					"https://youtu.be/zJ8djL-lYSg?t=20m10s",
-					"some sort of issue when they were rendering subtitles into the episode",
+					"some sort of issue when they were rendering subtitles into the episode?",
 					"",
 					"also do note that [the video is only available to certain countries around asia](https://polsy.org.uk/stuff/ytrestrict.cgi?agreed=on&ytid=zJ8djL-lYSg)"
 				]
@@ -328,15 +328,18 @@
 			},
 			"this is gonna be the year of the linux desktop!",
 			"911 whats your emergency",
-			"Human is funny as hell! :))))):))))))!!!!!!!",
+			{
+				"text": "Human is funny as hell! :))))):))))))!!!!!!!",
+				"info": "TepidLemonade (bot)"
+			},
 			"an error has occured. please try again",
 			"awoken!",
-			"babies kick pregnant woman all the time, but when i",
+			"babies kick pregnant woman all the time, but when i-",
 			"behind you!",
 			"best before monday",
 			"can you vibrate any quieter",
 			"child slavery",
-			"death.fell.accident.water",
+			"<span style='font-family:Minecraft'>death.fell.accident.water</span>",
 			"digitally compressed and shared on the internet!",
 			"do not yell at me i will cry",
 			"doofenshmirtz evil incorporated",
@@ -351,8 +354,6 @@
 			"i am here.",
 			"i am made of flesh, blood, and bone, just like you",
 			"i am the one who knocks",
-			"i dont know how to use a computer",
-			"i dont think im dreaming anymore",
 			"i have no idea what i am talking about",
 			"i know what we're doing today",
 			"i really need some better physics",
@@ -378,7 +379,7 @@
 			"oppa gangam style",
 			"perfectly balanced with no exploits!",
 			"please do not have an emergency at this location",
-			"please dont take it away from me",
+			"please don't take it away from me",
 			"potentially!",
 			"perchance!",
 			"pretend i said something racist and cancel me",
@@ -398,13 +399,16 @@
 			"unlock your front door",
 			"use 100% of your brain, have a seizure",
 			"watch out!",
-			"what happened to this peanut butter",
+			{
+				"text": "what happened to this peanut butter",
+				"info": "https://www.youtube.com/watch?v=iGJTFfcyLVU"
+			},
 			"where am i? how did i get here?",
 			"who is u/[deleted] and how are they so based",
 			"who's even writing these?",
 			"wrong, look at this cherry picked data i found",
-			"you cant dox me i already know where i live",
-			"you cant leave",
+			"you can't dox me i already know where i live",
+			"you can't leave",
 			"you could make a religion out of this",
 			"you have weird arms",
 			"you make me heavy",
@@ -519,7 +523,13 @@
 			"bless this fucked up world because it almost works",
 			"not yet eaten! what does it taste like?",
 			"do me a favor, die for me",
-			"what a lovely day, I sure hope nothing bad happens",
+			{
+				"text": "what a lovely day, I sure hope nothing bad happens",
+				"info": [
+					"i remembering seeing a bluesky post that had the date of September 11, 2001",
+					"unfortunately i did not think of saving it, and i don't remember who made it"
+				]
+			},
 			"behold, the power of an angel",
 			"that's a phrase",
 			"the indomitable human spirit",
@@ -531,7 +541,13 @@
 			"i write code. sometimes, it even works.",
 			"your next quote is:",
 			"include me in the screenshot",
-			"install debian",
+			{
+				"text": "install debian",
+				"info": [
+					"DeltaNedas had an obsession with this distro",
+					"i've heard he has since moved on to Void Linux"
+				]
+			},
 			"install windows",
 			"install macos",
 			"install linux kernel",
@@ -541,7 +557,10 @@
 			"who's afraid of the big black?",
 			"have i been banned",
 			"a remarkable reincarnation from the dead",
-			"hello everyone i have grown and matured as a person and am ready to be reintroduced to society",
+			{
+				"text": "hello everyone i have grown and matured as a person and am ready to be reintroduced to society",
+				"info": "ZestyLemonade"
+			},
 			"you are now manually breathing",
 			"such pointlessness!",
 			"crazy? i was crazy once",
@@ -552,23 +571,21 @@
 			"hello i'm a piece of garbage",
 			"oh hi thanks for checking in i'm still a piece of garbage",
 			"quarks & stuff",
-			"anime girls, profit",
-			"so what are you in for?",
+			"anime girls = profit",
+			"so, what are you in for?",
 			"ゴーグル翻訳",
 			"Bush hid the facts",
 			"Gotta express that middle-school arrogance and emo",
-			"r/deltarune is becoming the new arkham alsume",
 			"that's what you get for being a My lawyer has advised to not continue this.",
-			"was that a joke? i dont think i get it",
+			"was that a joke? i don't think i get it",
 			"call of dutyhypertext markup languagecascading style sheetsjavascript",
 			[
-				"Chat messages can't be verified",
-				"Messages sent on this server may be modified and might not reflect the original message"
+				"<span style='font-family:Minecraft'>Chat messages can't be verified",
+				"Messages sent on this server may be modified and might not reflect the original message</span>"
 			],
 			"i'm awake, i'm awake!!",
 			"yea no you're wrong",
 			"finest organizer member right here",
-			"microsoft cracker online",
 			"between the known and unknown",
 			"preventable catastrophe",
 			"rock your ego",
@@ -576,7 +593,6 @@
 			"connect to the network!",
 			"newfound delusion",
 			"drifting at lightspeed",
-			"daisy, daisy...",
 			"minding the industry",
 			"uncannily human-seeming",
 			"my dear doppelganger",
@@ -636,7 +652,6 @@
 			"hello, gordon!",
 			"can i see your passport?",
 			"hello everybody my name is markiplier",
-			"wish you were here",
 			"i'm only human after all",
 			"i wonder how, i wonder why",
 			"looking cool, joker",
@@ -645,7 +660,6 @@
 				"the world is in turmoil, and people are in pain.",
 				"even still, we can take comfort in knowing that there is bucket of wet slop. grins"
 			],
-			"hi this is gabe",
 			"long long man",
 			{
 				"text": "the identity of john has been discovered. it is confidential information.",
@@ -749,7 +763,7 @@
 			"let there be minecraft",
 			"what?",
 			"i am going to qmelz you into the void",
-			"macimating?",
+			"i'm quite \"macimating\", aren't i?",
 			{
 				"text": "prometheus was punished by the gods for giving the gift of knowledge to man.",
 				"info": "Portal 2"
@@ -791,7 +805,7 @@
 				"info": "Portal 2"
 			},
 			{
-				"text": "when life gives you lemons, dont make lemonade!",
+				"text": "when life gives you lemons, don't make lemonade!",
 				"info": "Portal 2"
 			},
 			{
@@ -835,7 +849,7 @@
 			"flint and steel? are you good?",
 			"the nether? you mean our regions?",
 			"may teto be by your side",
-			"i dont get it. why would teto being there for you be weird?",
+			"i don't get it. why would teto being there for you be weird?",
 			"tit? more like tet 🔻^_^🔻",
 			"life is exhausting",
 			"who is micheal and why is he calling me vsauce",
@@ -993,7 +1007,7 @@
 			},
 			{
 				"text": "fuuuuck the eternal blight skeleton is here",
-				"info": "https://www.tumblr.com/ifritdiezel/797764427964350464/fuuuuck-the-eternal-blight-skeleton-is-here"
+				"info": "https://www.tumblr.com/ifritdiezel/797764427964350464"
 			},
 			{
 				"text": "feel free to fork the project under a",
@@ -1012,11 +1026,55 @@
 			"coded with human hands!",
 			{
 				"text": "i'm still thrashing. flailing. writhing even. the violence remains.",
-				"info": "https://www.tumblr.com/caffeinatedopossum/798797597991124992/im-still-kicking-is-such-a-funny-way-to-say"
-			}
-		],
-
-		"commit_names": [
+				"info": "https://www.tumblr.com/caffeinatedopossum/798797597991124992"
+			},
+			{
+				"text": "puppy want a fucking break from it all",
+				"info": "https://www.tumblr.com/infectiouspiss/734164342629597185/puppy-want-a-treat"
+			},
+			{
+				"text": "everything that i can say is spoken for me, yeah",
+				"info": "https://flavorfoley.bandcamp.com/track/spoken-for"
+			},
+			{
+				"text": "the daze of blood stains, cruel and gory",
+				"info": "https://flavorfoley.bandcamp.com/track/spoken-for"
+			},
+			{
+				"text": "visions of violence are overpowering, yeah",
+				"info": "https://flavorfoley.bandcamp.com/track/spoken-for"
+			},
+			{
+				"text": "i don't get the messages, they don't come to me",
+				"info": "https://flavorfoley.bandcamp.com/track/spoken-for"
+			},
+			{
+				"text": "watch me as i eat my heart out, dispossessed",
+				"info": "https://flavorfoley.bandcamp.com/track/spoken-for"
+			},
+			{
+				"text": "please i'm begging anybody come and save me",
+				"info": "please://flavorfoley.bandcamp.com/track/spoken-for"
+			},
+			{
+				"text": "i don't know a single thing and i'm so lonely",
+				"info": "https://flavorfoley.bandcamp.com/track/spoken-for"
+			},
+			"i am so full of joy! nothing but pure unadulterated joy!!",
+			"under construction for endless enjoyment!",
+			{
+				"text": "<span style='font-family:Minecraft'>Whatever you do, at the crossroads, don't turn left.</span>",
+				"info": "https://www.youtube.com/watch?v=3V7Rvo4Gvic"
+			},
+			"no need to address me, nothing is wrong with me",
+			{
+				"text": "Experiencing interruptions? <a href='https://support.google.com/youtube/answer/3037019?hl=en'>Find out why</a>- bitch you're the interruption",
+				"info": "YouTube has a strange tendency to do this"
+			},
+			{
+				"text": "it snew",
+				"info": "Deltarune"
+			},
 			"ALL SORTS OF THINGS",
 			"abandon all hope, ye who enter here.",
 			"argh! about to give up :(",
@@ -1116,7 +1174,6 @@
 			"fuck cors",
 			"added more quotes",
 			"TOOK ME FUCKING 2 HOURS TO PROGRAM THIS SHIT WITHOUT TUTORIALS FCKKK",
-			"halfly made the readme. im tired bro. i'll finish it tomorrow. i just hope i don't fucking kill myself tonight",
 			"started redesigning some shit",
 			"FUCK YEAHHHH IT WORKS",
 			"feat: add additional shit",
@@ -1183,12 +1240,12 @@
 		],
 
 		"april": [
-			"oh wow it's april",
-			"did i get ya? hehe"
+			"oh wow it's april"
 		],
 
 		"may": [
-			"oh wow it's may"
+			"oh wow it's may",
+			"may the fourth be with you<!--this doesn't really work but whatever-->"
 		],
 
 		"june": [
@@ -1226,7 +1283,8 @@
 			"i wonder what snow tastes like",
 			"what a year, huh?",
 			"merry christmas and have a happy new year!",
-			"happy christmas and have a merry new year!"
+			"happy christmas and have a merry new year!",
+			"i s   t h i s   w h a t   s n o w g r a v e   f e e l s   l i k e ?"
 		]
 	},
 
@@ -1242,7 +1300,9 @@
 			"congrats, you are our suprise organ donor",
 			"i don't know who you are but i love you",
 			"i live in your walls but you live in my heart",
-			"love is in the air? wrong. gas leak!"
+			"love is in the air? wrong. gas leak!",
+			"wanna cuddle with me? don't worry i won't break your neck ^-^",
+			"wish you were here"
 		],
 
 		"april_fools": [
@@ -1253,11 +1313,14 @@
 			"<span style='color:#ff00ff;font-size:3em'>APRIL FOOLS!</span>",
 			"haha! got you!",
 			"you are a fool",
-			"i am a fool"
+			"i am a fool",
+			"did i get ya? hehe",
+			"🫵😮 🫵😮 😂 🤣 😂 🤣 👏👏👏👏"
 		],
 
 		"wysi": [
-			"when you see it"
+			"when you see it",
+			"👁️"
 		],
 
 		"birthday": [

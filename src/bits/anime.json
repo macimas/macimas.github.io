@@ -8,26 +8,29 @@
 	},
 	{
 		"name": "One Punch Man (S3)",
-		"tags": ["▶️", "🆗"],
+		"link": "https://myanimelist.net/anime/52807",
+		"tags": ["✅", "🆗"],
 		"text": [
 			"op bald man with less frames",
-			"October 13, 2025 - ..."
+			"October 13, 2025 - December 29"
 		]
 	},
 	{
 		"name": "Touring After the Apocalypse",
-		"tags": ["▶️", "🛢️"],
+		"link": "https://myanimelist.net/anime/61072",
+		"tags": ["✅", "🛢️"],
 		"text": [
-			"girl's last tour",
-			"October 8, 2025 - ..."
+			"girls' last tour",
+			"October 8, 2025 - January 2, 2026"
 		]
 	},
 	{
 		"name": "Dusk Beyond the End of the World",
-		"tags": ["▶️", "🛢️"],
+		"link": "https://myanimelist.net/anime/61917",
+		"tags": ["✅", "🛢️"],
 		"text": [
-			"peaceful world of oppression and mystery",
-			"October 8, 2025 - ..."
+			"spyware in your blood = end of the world",
+			"October 8, 2025 - January 14, 2026"
 		]
 	},
 	{
@@ -40,49 +43,53 @@
 	},
 	{
 		"name": "SPY×FAMILY (S3)",
-		"tags": ["▶️", "🛢️"],
+		"link": "https://myanimelist.net/anime/59027",
+		"tags": ["✅", "🛢️"],
 		"text": [
-			"October 5, 2025 - ..."
+			"October 5, 2025 - January 16, 2026"
 		]
 	},
 	{
 		"name": "Secrets of the Silent Witch",
+		"link": "https://myanimelist.net/anime/59459",
 		"tags": ["✅", "🛢️"],
 		"text": [
-			"bocchi",
+			"bocchi the witch!",
 			"October 4, 2025 - October 5"
 		]
 	},
 	{
 		"name": "Potion, Wagami wo Tasukeru",
-		"link": "https://myanimelist.net/anime/62144/",
-		"tags": ["▶️", "🆗"],
+		"link": "https://myanimelist.net/anime/62144",
+		"tags": ["❌", "🆗"],
 		"text": [
 			"teen sells drugs for a living",
-			"October 3, 2025 - ..."
+			"October 3, 2025 - ?"
 		]
 	},
 	{
 		"name": "Dungeons & Television (ONA)",
-		"tags": ["✅", "🛢️"],
+		"link": "https://myanimelist.net/anime/62238",
+		"tags": ["❔", "🛢️"],
 		"text": [
 			"broadcasting fantasy",
-			"August 28, 2025"
+			"August 28, 2025 - ..."
 		]
 	},
 	{
 		"name": "Nyaight of the Living Cat",
+		"link": "https://myanimelist.net/anime/58197",
 		"tags": ["❌", "🫀"],
 		"text": [
 			"touch a cat, become a cat",
 			"i do really like the idea of a catpocalypse,",
 			"but execution feels off to me to enjoy :(",
-			"August 28, 2025 - ..."
+			"August 28, 2025 - ?"
 		]
 	},
 	{
 		"name": "Apocalypse Bringer Mynoghra",
-		"link": "https://myanimelist.net/anime/59130/",
+		"link": "https://myanimelist.net/anime/59130",
 		"tags": ["✅", "🆗"],
 		"text": [
 			"Civilization isekai",
@@ -98,20 +105,25 @@
 	},
 	{
 		"name": "Witch Watch",
+		"link": "https://myanimelist.net/anime/59597",
 		"tags": ["✅", "🛢️"],
 		"text": [
+			"reckless with power",
 			"July 19, 2025 - October"
 		]
 	},
 	{
 		"name": "The Water Magician",
+		"link": "https://myanimelist.net/anime/60732",
 		"tags": ["✅", "🆗"],
 		"text": [
+			"is this Avatar: The Last Airbender?",
 			"July 18, 2025 - September 26"
 		]
 	},
 	{
 		"name": "Uglymug, Epicfighter",
+		"link": "https://myanimelist.net/anime/60316",
 		"tags": ["✅", "🆗"],
 		"text": [
 			"wannacry op mc isekai",
@@ -135,7 +147,8 @@
 		]
 	},
 	{
-		"name": "Sakamoto Days (S2)",
+		"name": "Sakamoto Days (S1, 2)",
+		"link": "https://myanimelist.net/anime/60285",
 		"tags": ["✅", "🛢️"],
 		"text": [
 			"assasinations",
@@ -303,7 +316,8 @@
 		]
 	},
 	{
-		"name": "Sakamoto Days (S1)",
+		"name": "Sakamoto Days (S1, 1)",
+		"link": "https://myanimelist.net/anime/58939",
 		"tags": ["✅", "🥚"],
 		"text": [
 			"leaving mafia to start family",
@@ -619,6 +633,7 @@
 	},
 	{
 		"name": "SPY×FAMILY CODE: White",
+		"link": "https://myanimelist.net/anime/53888",
 		"tags": ["✅", "🛢️"],
 		"text": [
 			"January, 2024?"
@@ -626,6 +641,7 @@
 	},
 	{
 		"name": "SPY×FAMILY (S2)",
+		"link": "https://myanimelist.net/anime/53887",
 		"tags": ["✅", "🛢️"],
 		"text": [
 			"January, 2024?"
@@ -633,6 +649,7 @@
 	},
 	{
 		"name": "SPY×FAMILY (S1, 2)",
+		"link": "https://myanimelist.net/anime/50602",
 		"tags": ["✅", "🛢️"],
 		"text": [
 			"January, 2024?"
@@ -640,6 +657,7 @@
 	},
 	{
 		"name": "SPY×FAMILY (S1, 1)",
+		"link": "https://myanimelist.net/anime/50265",
 		"tags": ["✅", "🛢️"],
 		"text": [
 			"January, 2024?"
@@ -647,6 +665,7 @@
 	},
 	{
 		"name": "High School Prodigies Have It Easy Even in Another World!",
+		"link": "https://myanimelist.net/anime/39523",
 		"tags": ["❌", "🆗"],
 		"text": [
 			"December, 2023"
@@ -654,6 +673,7 @@
 	},
 	{
 		"name": "Nichijou",
+		"link": "https://myanimelist.net/anime/10165",
 		"tags": ["✅", "🥚"],
 		"text": [
 			"ordinary life in japan",
@@ -685,6 +705,7 @@
 	},
 	{
 		"name": "Loner Life in Another World",
+		"link": "https://myanimelist.net/anime/57891",
 		"tags": ["✅", "🆗"],
 		"text": [
 			"lonely boy",
@@ -716,6 +737,7 @@
 	},
 	{
 		"name": "Undead Unluck",
+		"link": "https://myanimelist.net/anime/52741",
 		"tags": ["✅", "🛢️"],
 		"text": [
 			"October, 2023? - March, 2024"
@@ -723,6 +745,7 @@
 	},
 	{
 		"name": "A Playthrough of a Certain Dude's VRMMO Life",
+		"link": "https://myanimelist.net/anime/54431",
 		"tags": ["✅", "🆗"],
 		"text": [
 			"October, 2023? - December"
@@ -916,6 +939,7 @@
 	},
 	{
 		"name": "Sword Art Online II",
+		"link": "https://myanimelist.net/anime/21881",
 		"tags": ["✅", "🆗"],
 		"text": [
 			"2023?"
@@ -923,6 +947,7 @@
 	},
 	{
 		"name": "Sword Art Online",
+		"link": "https://myanimelist.net/anime/11757",
 		"tags": ["✅", "🛢️"],
 		"text": [
 			"2023?"
@@ -972,6 +997,7 @@
 	},
 	{
 		"name": "Sword Art Online II",
+		"link": "https://myanimelist.net/anime/21881",
 		"tags": ["✅"],
 		"text": [
 			"2018?"
@@ -979,6 +1005,7 @@
 	},
 	{
 		"name": "Sword Art Online",
+		"link": "https://myanimelist.net/anime/11757",
 		"tags": ["✅"],
 		"text": [
 			"2018?"
@@ -986,6 +1013,7 @@
 	},
 	{
 		"name": "Mob Psycho 100",
+		"link": "https://myanimelist.net/anime/32182",
 		"tags": ["✅", "🛢️"],
 		"text": [
 			"2017?"
@@ -993,6 +1021,7 @@
 	},
 	{
 		"name": "One Punch Man",
+		"link": "https://myanimelist.net/anime/30276",
 		"text": [
 			"2017?"
 		]
