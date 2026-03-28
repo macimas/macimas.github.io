@@ -1,5 +1,41 @@
 [
 	{
+		"name": "The Invisible Man and His Soon-to-Be Wife",
+		"tags": ["▶️", "🆗"],
+		"text": [
+			"March 14, 2026 - ..."
+		]
+	},
+	{
+		"name": "The Demon King's Daughter Is Too Kind!!",
+		"tags": ["✅", "🆗"],
+		"text": [
+			"March 9, 2026 - March 20"
+		]
+	},
+	{
+		"name": "'Tis Time for \"Torture,\" Princess (S2)",
+		"tags": ["▶️", "🛢️"],
+		"text": [
+			"January 22, 2026 - ..."
+		]
+	},
+	{
+		"name": "Oshi no Ko (S3)",
+		"tags": ["▶️", "🛢️"],
+		"text": [
+			"January 18, 2026 - ..."
+		]
+	},
+	{
+		"name": "Frieren: Beyond Journey's End",
+		"link": "https://myanimelist.net/anime/59978",
+		"tags": ["✅", "🛢️"],
+		"text": [
+			"January 17, 2026 - March 28"
+		]
+	},
+	{
 		"name": "The Dark History of the Reincarnated Villainess",
 		"tags": ["❌", "🆗"],
 		"text": [
@@ -609,7 +645,7 @@
 		]
 	},
 	{
-		"name": "'Tis Time for \"Torture,\" Princess",
+		"name": "'Tis Time for \"Torture,\" Princess (S1)",
 		"tags": ["✅", "🆗"],
 		"text": [
 			"feeding chamber",
@@ -753,6 +789,7 @@
 	},
 	{
 		"name": "Frieren: Beyond Journey's End (S1)",
+		"link": "https://myanimelist.net/anime/52991",
 		"tags": ["✅", "🥚"],
 		"text": [
 			"heart touching world",

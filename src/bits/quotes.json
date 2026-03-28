@@ -1193,14 +1193,37 @@
 			"yet another quality commit",
 			"add colors css and maybe some other things im forgetting too late for git diff i already added",
 			"feat: nvm",
-			"whatthecommit.com’s server IP address could not be found."
+			{
+				"text": "Contents Attachments",
+				"info": [
+					"over at Discord > Settings > Data & Privacy, you can request your data with lots of stuff, though in this case i will only be talking about messages you've made",
+					"",
+					"your messages are organized by channel thru folders that contain a file listing your messages",
+					"",
+					"in the past they used to be .csv (so tabled!), but at some point they moved to .json (murderer)",
+					"",
+					"Contents and Attachments were the headers given to two columns, one that contained whatever you wrote, two lists the links of whatever files you attached",
+					"",
+					"there is also Timestamp but i do not care about that"
+				]
+			},
+			"please allow cookies, i am hungry",
+			"egg",
+			"mentally melting. merde.",
+			{
+				"text": "knock knock. who's there? hand grenade",
+				"info": "https://archive.org/details/jokesforminecraf0000holl"
+			},
+			{
+				"text": "toxic fumes imbued in my hair",
+				"info": "for some reason i lost my ability to edit/remove my status in Discord"
+			}
 		],
 
 		"cool_shit": [
 			"check out skybldev.eu.org!",
 			"check out qmelz.deno.dev!",
 			"check out ifritdiezel.neocities.org!",
-			"check out macimas.github.io!",
 			"check out ado1928.github.io!",
 			"check out cobalt.tools!",
 			{
@@ -1228,11 +1251,13 @@
 			"what a previous year that was, huh?",
 			"Happy new year!",
 			"the mythical month of januerer",
-			"[generic new year congratulation]"
+			"[generic new year congratulation]",
+			"my new year's resolution is 1366×768"
 		],
 
 		"february": [
-			"oh wow it's february"
+			"oh wow it's february",
+			"oh wow it's the month of love"
 		],
 
 		"march": [
